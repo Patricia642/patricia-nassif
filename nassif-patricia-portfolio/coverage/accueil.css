@@ -1,0 +1,118 @@
+body {
+  width: 100%;
+  height: auto;
+  background-color: #F5F2E1;
+  margin: 0; 
+}
+
+/* Mon image hero qui prend tout la place */
+#hero {
+  width: 100%;
+  border-radius: 50px;
+}
+
+/* Mon bas de page centré */
+footer {
+  text-align: center;
+  font-size: 24px;
+  background-color: #757A4A;
+  color: #F5F2E1;
+  font-family: imbue;
+  padding: 20px;
+}
+
+#Menu {
+  position: absolute;  
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 0;
+  z-index: 10;         
+}
+
+#Menu ul {
+  list-style: none;       
+  margin: 0;
+  padding: 0;
+  display: flex;             
+  justify-content: center;   
+  gap: 150px;                 
+}
+
+#Menu li {
+  display: inline-block;
+}
+
+#Menu a {
+  text-decoration: none;  
+  color: #F5F2E1;          
+  font-size: 24px;
+  font-family: imbue, serif;
+  transition: color 0.3s;
+}
+
+/* Mon menu au survol */
+#Menu a:hover { 
+  color: #757A4A;          
+}
+
+/* Hero image */
+.hero {
+  position: relative; 
+  width: 100%;
+  border-radius: 50px;
+}
+
+.hero img:first-child {
+  width: 100%;
+  height: 1050px;
+  object-fit: cover;
+  display: block;
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;  
+  height: auto;
+  z-index: 10;
+}
+
+/* Le parent des mes images de chats */
+.chats {
+  display: flex;              
+  justify-content: center;     
+  align-items: center;        
+  margin: 100px 0;            
+  gap: 150px;                  
+}
+
+/* Mes images de chats */
+.chats img {
+  max-width: 100%;             
+  height: auto;       
+}
+
+/* Mon nom centré */
+h1 {
+  text-align: center;  
+  width: 800px;        
+  margin: 0 auto;      
+}
+
+/* Mon bienvenue */
+h2 {
+  text-align: center;  
+  width: 800px;        
+  margin: 0 auto;      
+}
+
+
+p {
+  text-align: center;  
+  width: 800px;       
+  margin: 100px auto;  
+}
+
