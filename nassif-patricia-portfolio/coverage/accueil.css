@@ -25,19 +25,20 @@ body {
 
 /* le fond vert de mon bas de page */
 footer {
+  display: flex;              
+  justify-content: center;     
+  align-items: center;          
   background-color: #757A4A;
-  padding: 5px 5px;  
-  height: auto;
+  padding: 10px 0;             
+  height: auto;                 
 }
 
 /* le text de mon bas de page */
 footer p {
-  color: #F5F2E1;
-  text-align: center;
+  margin: 0;                    
+  padding: 0;
   font-size: 24px;
-  margin: 0;      
-  padding: 0;     
-  line-height: 1;  
+  color: #F5F2E1;
 }
 
 /* Emplacement menu */
@@ -123,7 +124,7 @@ p {
   width: 1300px;       
   margin: 100px auto;  
   font-size: 48px;
-  color: #7C8064; 
+  color: black; 
 }
 
 /* Mon image de foret 1 centré */
@@ -278,12 +279,12 @@ h1.contact {
 @media screen and (max-width: 992px) {
   /* gap de menu plus petite */
   #Menu ul {
-    gap: 100px;
+    gap: 130px;
   }
 
   /* Typo plus petite */
   #Menu a {
-    font-size: 24px;
+    font-size: 25px;
   }
 
   /* hero img plus petite */
@@ -298,7 +299,7 @@ h1.contact {
 
   /* Typo et largeur plus petite */
   h1 {
-    font-size: 64px;
+    font-size: 74px;
     width: 90%;
   }
 
@@ -317,8 +318,15 @@ h1.contact {
 
   /* img plus petite */
   .foret1 img {
-    width: 80%;       
-    max-width: 400px; 
+    width: 90%;       
+    max-width: 900px; 
+    height: auto;
+  }
+
+  /* img plus petite */
+  .foret2 img {
+    width: 90%;       
+    max-width: 900px; 
     height: auto;
   }
 
@@ -335,6 +343,7 @@ h1.contact {
     height: auto;
   }
 
+
   /* Projets en verticales */
   .projets {
     flex-direction: column;
@@ -343,9 +352,10 @@ h1.contact {
     align-items: center; 
   }
 
+  /* Projets dimensions */
   .projet1, .projet2, .projet3 {
-    width: 80%;          
-    max-width: 400px;   
+    width: 90%;          
+    max-width: 900px;   
     height: auto;
     padding: 20px;
     gap: 30px;
@@ -368,4 +378,38 @@ h1.contact {
   .carousel-container img {
     height: 150px;
   }
+
+  /* Change pour column pour avoir mes infos en dessous de ma photo centrés */
+  .contact-wrapper {
+    flex-direction: column;      
+    align-items: center;        
+    text-align: center;          
+    gap: 5px;                   
+  }
+
+  /* le text de mes infos plus petit */
+  .contact-infos p {
+    text-align: center;          
+    font-size: 56px;              
+  }
+
+  /* ma photo plus petite */
+  .contact-photo img {
+    width: 80%;                  
+    max-width: 400px;            
+    height: auto;
+  }
+
+  /* typo plus petite pour mes titres 1 et 2 */
+  h1.contact, h1.projetsTitre {
+  font-size: 88px;
+  }
+
+  /* arranger la largeur de mes lignes */
+  .ligne {
+  width: 90%;       
+  max-width: 900px; 
+  height: auto; 
+  }
 }
+
