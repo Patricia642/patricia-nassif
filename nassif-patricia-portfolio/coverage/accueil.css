@@ -130,36 +130,37 @@ p {
 /* Conteneur de tous les projets */
 .projets {
   display: flex;
-  gap: 30px;               
-  justify-content: center;  
-  margin: 100px 0;
-  gap: 95px; 
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  max-width: 1290px;              
+  margin: 50px auto 50px auto;          
 }
 
 /* Gros rectangles verts pour Projets */
 .projet1, .projet2, .projet3 {
+  width: 48%;                    
   background-color: #757A4A;
   border-radius: 50px;
   padding: 40px;
-  width: 600px; 
-  height: 850px;           
+  height: 850px;
   color: #F5F2E1;
   display: flex;
   flex-direction: column;
-  align-items: center;      
+  align-items: center;
   text-align: center;
-  gap: 50px;               
+  gap: 50px; 
+  margin-top: 55px;
 }
 
 /* Titres 1 des projets */
-.projet1 h1, .projet2 h1, .projet3 h1 {
+.projets h1 {
   font-size: 96px;
   margin: 0;
   color: #F5F2E1;
 }
 
 /* Titres 2 des projets*/
-.projet1 h2, .projet2 h2, .projet3 h2 {
+.projets h2 {
   font-size: 52px;
   margin: 0;
   font-weight: normal;
@@ -188,7 +189,7 @@ p {
 }
 
 /* Description de mes projets */
-.projet1 p, .projet2 p, .projet3 p {
+.projets p {
   font-size: 32px;
   line-height: 1.6;
   margin: 0;
@@ -268,15 +269,15 @@ p {
   }
 
   /* Typo plus petite */
-  .projet1 h1, .projet2 h1, .projet3 h1 {
+  .projets h1 {
     font-size: 48px;
   }
 
-  .projet1 h2, .projet2 h2, .projet3 h2 {
+  .projets h2 {
     font-size: 28px;
   }
 
-  .projet1 p, .projet2 p, .projet3 p {
+  .projets p {
     font-size: 20px;
   }
 
