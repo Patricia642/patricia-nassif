@@ -171,7 +171,6 @@ p {
 /* Carrousel */
 .carousel-container {
   background-color: #F5F2E1;
-  border-radius: 50px;
   padding: 20px;
   width: 100%; 
   height: auto;           
@@ -184,8 +183,6 @@ p {
 /* Carrousel d'images */
 .carousel-container img {
   height: 200px;
-  border-radius: 20px;
-  flex-shrink: 0;
 }
 
 /* Description de mes projets */
@@ -195,6 +192,7 @@ p {
   margin: 0;
   color: #F5F2E1;
   width: 90%;
+  text-align: left;
 }
 
 /* Mobile */
