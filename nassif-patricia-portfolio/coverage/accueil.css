@@ -201,7 +201,7 @@ p {
 @media screen and (max-width: 992px) {
   /* gap de menu plus petite */
   #Menu ul {
-    gap: 30px;
+    gap: 100px;
   }
 
   /* Typo plus petite */
@@ -245,11 +245,17 @@ p {
     height: auto;
   }
 
-  /* Chats img verticales */
+  /* section chats emplacement*/
   .chats {
-    flex-direction: column;
-    gap: 50px;
+    gap: 10px;
     margin: 50px 0;
+    justify-content: center;
+  }
+
+  /* img chats taille*/
+  .chats img {
+    width: 30%;            
+    height: auto;
   }
 
   /* Projets en verticales */
