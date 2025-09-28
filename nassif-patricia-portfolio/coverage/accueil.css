@@ -32,6 +32,7 @@ footer {
   padding: 20px;
 }
 
+/* Emplacement menu */
 #Menu {
   position: absolute;  
   top: 0;
@@ -41,7 +42,7 @@ footer {
   z-index: 10;         
 }
 
-
+/* Emplacement des choses dans mon menu */
 #Menu ul {
   list-style: none;       
   margin: 0;
@@ -123,4 +124,164 @@ p {
   justify-content: center;   
   align-items: center;  
   padding-top: 50px;     
+  padding-bottom: 50px;
+}
+
+/* Conteneur de tous les projets */
+.projets {
+  display: flex;
+  gap: 30px;               
+  justify-content: center;  
+  margin: 100px 0;
+  gap: 95px; 
+}
+
+/* Gros rectangles verts pour Projets */
+.projet1, .projet2, .projet3 {
+  background-color: #757A4A;
+  border-radius: 50px;
+  padding: 40px;
+  width: 600px; 
+  height: 850px;           
+  color: #F5F2E1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;      
+  text-align: center;
+  gap: 50px;               
+}
+
+/* Titres 1 des projets */
+.projet1 h1, .projet2 h1, .projet3 h1 {
+  font-size: 96px;
+  margin: 0;
+  color: #F5F2E1;
+}
+
+/* Titres 2 des projets*/
+.projet1 h2, .projet2 h2, .projet3 h2 {
+  font-size: 52px;
+  margin: 0;
+  font-weight: normal;
+  color: #F5F2E1;
+  font-family: 'Imbue', serif;
+}
+
+/* Carrousel */
+.carousel-container {
+  background-color: #F5F2E1;
+  border-radius: 50px;
+  padding: 20px;
+  width: 100%; 
+  height: auto;           
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  justify-content: center;
+}
+
+/* Carrousel d'images */
+.carousel-container img {
+  height: 200px;
+  border-radius: 20px;
+  flex-shrink: 0;
+}
+
+/* Description de mes projets */
+.projet1 p, .projet2 p, .projet3 p {
+  font-size: 32px;
+  line-height: 1.6;
+  margin: 0;
+  color: #F5F2E1;
+  width: 90%;
+}
+
+/* Mobile */
+@media screen and (max-width: 992px) {
+  /* gap de menu plus petite */
+  #Menu ul {
+    gap: 30px;
+  }
+
+  /* Typo plus petite */
+  #Menu a {
+    font-size: 24px;
+  }
+
+  /* hero img plus petite */
+  .hero .fond {
+    height: 1000px; 
+  }
+
+  /* Logo plus petit */
+  .logo {
+    width: 50%;
+  }
+
+  /* Typo et largeur plus petite */
+  h1 {
+    font-size: 64px;
+    width: 90%;
+  }
+
+  /* Typo et largeur plus petite */
+  h2 {
+    font-size: 48px;
+    width: 90%;
+  }
+
+  /* Typo plus petite */
+  p {
+    font-size: 24px;
+    width: 90%;
+    margin: 50px auto;
+  }
+
+  /* img plus petite */
+  .foret1 img {
+    width: 80%;       
+    max-width: 400px; 
+    height: auto;
+  }
+
+  /* Chats img verticales */
+  .chats {
+    flex-direction: column;
+    gap: 50px;
+    margin: 50px 0;
+  }
+
+  /* Projets en verticales */
+  .projets {
+    flex-direction: column;
+    gap: 50px;
+    margin: 50px 0;
+    align-items: center; 
+  }
+
+  .projet1, .projet2, .projet3 {
+    width: 80%;          
+    max-width: 400px;   
+    height: auto;
+    padding: 20px;
+    gap: 30px;
+  }
+
+  /* Typo plus petite */
+  .projet1 h1, .projet2 h1, .projet3 h1 {
+    font-size: 48px;
+  }
+
+  .projet1 h2, .projet2 h2, .projet3 h2 {
+    font-size: 28px;
+  }
+
+  .projet1 p, .projet2 p, .projet3 p {
+    font-size: 20px;
+  }
+
+  /* Carrousel plus petit de la hauteur */
+  .carousel-container img {
+    height: 150px;
+  }
 }
