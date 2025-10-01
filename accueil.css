@@ -14,7 +14,7 @@ main {
 /*Section Hero */
 .hero {
   position: relative;
-  width: 100%;
+  width: 100vw;
   border-radius: 0 0 50px 50px; 
   overflow: hidden;             
 }
