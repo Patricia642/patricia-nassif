@@ -21,7 +21,7 @@ main {
 
 /* Image de fond */
 .hero .fond {
-  width: 100%;
+  width: 100vw;
   height: 1400px;        
   object-fit: cover;    
   display: flex;
@@ -314,6 +314,17 @@ h1.contact {
 /* mes infos au survol */
 .contact-infos p:hover {
   text-decoration: underline;
+}
+
+/* mes infos a allure */
+.contact-infos a {
+  color: black;         
+  text-decoration: none;  
+}
+
+/* mes infos a au survol */
+.contact-infos a:hover {
+  text-decoration: underline; 
 }
 
 
