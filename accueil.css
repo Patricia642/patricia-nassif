@@ -45,6 +45,7 @@ footer p {
   padding: 0;
   font-size: 24px;
   color: #F5F2E1;
+  text-align: center;
 }
 
 /* Emplacement menu */
@@ -127,7 +128,7 @@ h2 {
 
 /* Mon à propos de moi */
 p {
-  text-align: center;  
+  text-align: left;  
   width: 1300px;       
   margin: 100px auto;  
   font-size: 48px;
@@ -182,7 +183,7 @@ h1.contact {
   background-color: #757A4A;
   border-radius: 50px;
   padding: 40px;
-  height: 850px;
+  height: 1100px;
   color: #F5F2E1;
   display: flex;
   flex-direction: column;
@@ -208,22 +209,56 @@ h1.contact {
   font-family: 'Imbue', serif;
 }
 
-/* Carrousel */
+/* Conteneur du carrousel */
 .carousel-container {
-  background-color: #F5F2E1;
-  padding: 20px;
-  width: 100%; 
-  height: auto;           
-  display: flex;
-  gap: 20px;
-  overflow-x: auto;
-  justify-content: center;
+  width: 100%;          
+  padding: 0;           
+  margin: 0;        
+  background-color: transparent;
 }
 
-/* Carrousel d'images */
-.carousel-container img {
-  height: 200px;
+/* Swiper global */
+.swiper {
+  width: 100%;           
+  height: 500px;         
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
 }
+
+/* Slides (images) */
+.swiper-slide {
+  width: 100%;          
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Images des slides */
+.swiper-slide img {
+  width: 100%;          
+  height: 100%;         
+  object-fit: cover;    
+}
+
+/* Pagination (points) */
+.swiper-pagination {
+  bottom: 15px !important;
+}
+
+/* Flèches de navigation */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #f5d78e; /* couleur douce dorée */
+}
+
 
 /* Description de mes projets */
 .projets p {
@@ -255,12 +290,13 @@ h1.contact {
 /* parent de ma photo et mes infos  */
 .contact-wrapper {
   display: flex;
-  gap: 40px;           
+  gap: 40px;       
+  width: 90%;    
 }
 
 /* ma photo grandeur */
 .contact-photo img {
-  width: 600px;        
+  width: 550px;        
   height: auto;
 }
 
@@ -268,7 +304,7 @@ h1.contact {
 .contact-infos p {
   display: flex;
   flex-direction: column;
-  font-size: 80px;
+  font-size: 72px;
   color: black;
   font-family: 'Imbue', serif;
   text-align: left;
@@ -416,6 +452,10 @@ h1.contact {
   width: 90%;       
   max-width: 900px; 
   height: auto; 
+  }
+
+  .swiper {
+    height: 300px;
   }
 }
 
