@@ -178,7 +178,7 @@ h1.contact {
 }
 
 /* Gros rectangles verts pour Projets */
-.projet1, .projet2, .projet3 {
+.projet1, .projet2, .projet3, .projet4, .projet5, .projet6 {
   width: 48%;                    
   background-color: #757A4A;
   border-radius: 50px;
@@ -242,9 +242,9 @@ h1.contact {
   object-fit: cover;    
 }
 
-/* Pagination (points) */
+/* (points) */
 .swiper-pagination {
-  bottom: 15px !important;
+  bottom: 15px 
 }
 
 /* Flèches de navigation */
@@ -254,10 +254,32 @@ h1.contact {
   transition: color 0.3s ease;
 }
 
-.swiper-button-next:hover,
-.swiper-button-prev:hover {
-  color: #f5d78e; /* couleur douce dorée */
+.projet3 .projet-image {
+  width: 100%;
+  height: 500px;       
+  object-fit: cover;    
+  border-radius: 20px; 
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25); 
 }
+
+
+.projet4 .projet-image {
+  width: 100%;
+  height: 500px;       
+  object-fit: cover;    
+  border-radius: 20px; 
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25); 
+}
+
+.projet5 .projet-image {
+  width: 100%;
+  height: 500px;       
+  object-fit: cover;    
+  border-radius: 20px; 
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25); 
+}
+
+
 
 
 /* Description de mes projets */
