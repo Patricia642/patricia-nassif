@@ -1,112 +1,87 @@
 [
   {
     "id": 1,
-    "name": "Cyre",
-    "stage": "Cosmos",
-    "start": "20:00",
-    "end": "21:00",
-    "style": "Drum & Bass",
-    "popularity": 92,
-    "featured": true
+    "title": "GRADUATION",
+    "type": "PERSONNELLE",
+    "category": "PHOTOGRAPHIE",
+    "description": "J’ai préparé mon matériel et organisé la séance photo tout en laissant de la liberté aux clients. Ensuite, j’ai sélectionné, retouché et livré les meilleures photos dans un dossier structuré, accompagné d’un message de remerciement.",
+    "images": [
+      "./nassif-patricia-portfolio/Assets/graduation/img1.JPG",
+      "./nassif-patricia-portfolio/Assets/graduation/img2.JPG",
+      "./nassif-patricia-portfolio/Assets/graduation/img3.JPG",
+      "./nassif-patricia-portfolio/Assets/graduation/img4.JPG",
+      "./nassif-patricia-portfolio/Assets/graduation/img5.JPG",
+      "./nassif-patricia-portfolio/Assets/graduation/img6.JPG",
+      "./nassif-patricia-portfolio/Assets/graduation/img7.JPG",
+      "./nassif-patricia-portfolio/Assets/graduation/img8.JPG",
+      "./nassif-patricia-portfolio/Assets/graduation/img9.JPG",
+      "./nassif-patricia-portfolio/Assets/graduation/img10.JPG",
+      "./nassif-patricia-portfolio/Assets/graduation/img11.JPG",
+      "./nassif-patricia-portfolio/Assets/graduation/img12.JPG",
+      "./nassif-patricia-portfolio/Assets/graduation/img13.JPG",
+      "./nassif-patricia-portfolio/Assets/graduation/img14.JPG",
+      "./nassif-patricia-portfolio/Assets/graduation/img15.JPG",
+      "./nassif-patricia-portfolio/Assets/graduation/img16.JPG",
+      "./nassif-patricia-portfolio/Assets/graduation/img17.JPG",
+      "./nassif-patricia-portfolio/Assets/graduation/img18.JPG",
+      "./nassif-patricia-portfolio/Assets/graduation/img19.JPG",
+      "./nassif-patricia-portfolio/Assets/graduation/img20.JPG"
+    ]
   },
   {
     "id": 2,
-    "name": "Dig & Pan",
-    "stage": "Eclipse",
-    "start": "19:00",
-    "end": "19:45",
-    "style": "House",
-    "popularity": 78,
-    "featured": false
+    "title": "NATURE MORTE",
+    "type": "ACADÉMIQUE",
+    "category": "PHOTOGRAPHIE",
+    "description": "J’ai pris de nombreuses photos en prenant le temps nécessaire pour m’assurer que la structure visuelle soit harmonieuse. De plus, j’ai ajusté certaines teintes dans Lightroom afin de mieux contextualiser l’image.",
+    "images": [
+      "./nassif-patricia-portfolio/Assets/nature-morte/img1.JPG",
+      "./nassif-patricia-portfolio/Assets/nature-morte/img2.JPG",
+      "./nassif-patricia-portfolio/Assets/nature-morte/img3.JPG",
+      "./nassif-patricia-portfolio/Assets/nature-morte/img4.JPG",
+      "./nassif-patricia-portfolio/Assets/nature-morte/img5.JPG"
+    ]
   },
   {
     "id": 3,
-    "name": "Pixel Twins",
-    "stage": "Cosmos",
-    "start": "22:00",
-    "end": "23:00",
-    "style": "Techno",
-    "popularity": 85,
-    "featured": false
+    "title": "MACRO",
+    "type": "ACADÉMIQUE",
+    "category": "VIDÉO",
+    "description": "J’ai choisi le thème des bonnes habitudes de vie et collaboré avec l’équipe pour assurer la réussite du tournage. J’ai réalisé le scénarimage, supervisé le déroulement du tournage en dirigeant l’équipe, puis j’ai contribué au montage de la vidéo.",
+    "images": [
+      "./nassif-patricia-portfolio/Assets/video/MACRO.png"
+    ]
   },
   {
     "id": 4,
-    "name": "VJ Celeste",
-    "stage": "Cosmos",
-    "start": "21:15",
-    "end": "22:00",
-    "style": "Visuals",
-    "popularity": 70,
-    "featured": false
+    "title": "CRITIQUE",
+    "type": "ACADÉMIQUE",
+    "category": "WEB",
+    "description": "J’ai choisi un sujet, défini la structure générale pour l’utilisation de Bootstrap et élaboré un plan visuel sur papier. Ensuite, j’ai écrit le code et finalisé la page.",
+    "images": [
+      "./nassif-patricia-portfolio/Assets/web/CRITIQUE.png"
+    ]
   },
   {
     "id": 5,
-    "name": "Trou noir",
-    "stage": "Club",
-    "start": "18:00",
-    "end": "18:45",
-    "style": "Ambient",
-    "popularity": 63,
-    "featured": false
+    "title": "VIXEN",
+    "type": "ACADÉMIQUE",
+    "category": "ANIMATION 3D",
+    "description": "J’ai créé un moodboard, choisi mon mot, modélisé la lampe et préparé la scène. Ensuite, j’ai animé l’ensemble en ajustant l’éclairage, exporté le projet et l’ai importé dans DaVinci Resolve pour y ajouter la bande sonore.",
+    "images": [
+      "./nassif-patricia-portfolio/Assets/VIXEN.png"
+    ]
   },
   {
     "id": 6,
-    "name": "Carl Box",
-    "stage": "Oasis",
-    "start": "19:00",
-    "end": "19:45",
-    "style": "House",
-    "popularity": 74,
-    "featured": false
-  },
-  {
-    "id": 7,
-    "name": "Phaser",
-    "stage": "Club",
-    "start": "22:00",
-    "end": "23:00",
-    "style": "Techno",
-    "popularity": 75,
-    "featured": false
-  },
-  {
-    "id": 8,
-    "name": "Eternel",
-    "stage": "Club",
-    "start": "21:15",
-    "end": "22:00",
-    "style": "House",
-    "popularity": 70,
-    "featured": false
-  },
-  {
-    "id": 9,
-    "name": "Dead House",
-    "stage": "Eclipse",
-    "start": "19:00",
-    "end": "19:45",
-    "style": "Breakbeat",
-    "popularity": 78,
-    "featured": false
-  },
-  {
-    "id": 10,
-    "name": "Opus Fokus",
-    "stage": "Oasis",
-    "start": "22:00",
-    "end": "23:00",
-    "style": "Techno",
-    "popularity": 80,
-    "featured": true
-  },
-  {
-    "id": 11,
-    "name": "Spirale",
-    "stage": "Oasis",
-    "start": "21:15",
-    "end": "22:00",
-    "style": "Drum & Bass",
-    "popularity": 70,
-    "featured": true
+    "title": "GRAPHISME",
+    "type": "PERSONNELLE",
+    "category": "GRAPHISME",
+    "description": "Je me suis inspirée d’illustrations et d’images sur Pinterest, puis j’ai soit essayé de les recréer, soit de réaliser quelque chose de similaire en illustration.",
+    "images": [
+      "./nassif-patricia-portfolio/Assets/illustrations/lemon/Asset 1.png",
+      "./nassif-patricia-portfolio/Assets/illustrations/lemon/Asset 3.png",
+      "./nassif-patricia-portfolio/Assets/illustrations/lemon/citron.png"
+    ]
   }
 ]

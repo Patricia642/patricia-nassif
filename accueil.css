@@ -286,6 +286,19 @@ h1.contact {
   transition: color 0.3s ease;
 }
 
+/*Les UI et UX du swiper au survol*/
+.swiper-pagination-bullet:hover {
+  background-color: #EFBF04 !important; /*important pour l'obliger à prendre la bonne couleur*/
+  opacity: 1;
+}
+
+/*Les UI et UX du swiper au survol*/
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #EFBF04 !important; /*important pour l'obliger à prendre la bonne couleur*/
+}
+
+
 .projet3 .projet-image {
   width: 100%;
   height: 500px;       
