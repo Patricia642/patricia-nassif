@@ -98,7 +98,7 @@
         <img src="./nassif-patricia-portfolio/Assets/ligne.png" class="ligne" alt="Ligne" />
       </div>
 
-      <!-- Section projets (montage Vue) -->
+<!-- Section projets (montage Vue) -->
 <section class="projets appli-vue" id="app">
   <!-- Boucle sur les projets chargés de projects.json -->
   <div
@@ -118,7 +118,8 @@
             v-for="(img, idx) in projet.images"
             :key="idx"
           >
-            <img :src="img" :alt="`Image ${idx + 1}`" />
+            <img :src="img" :alt="`Image ${idx + 1}`" @click="openFullscreen(img)" />
+            <button class="fullscreen-btn" @click.prevent="openFullscreen(img)">⛶</button>
           </div>
         </div>
         <div class="swiper-pagination"></div>
@@ -128,8 +129,14 @@
     </div>
 
     <!-- Si une seule image -->
-    <div v-else-if="projet.images && projet.images.length === 1">
-      <img :src="projet.images[0]" :alt="projet.title" class="projet-image" />
+    <div v-else-if="projet.images && projet.images.length === 1" class="single-image-container">
+      <img
+        :src="projet.images[0]"
+        :alt="projet.title"
+        class="projet-image"
+        @click="openFullscreen(projet.images[0])"
+      />
+      <button class="fullscreen-btn" @click.prevent="openFullscreen(projet.images[0])">⛶</button>
     </div>
 
     <!-- Description -->
