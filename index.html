@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="accueil.css" />
     <script src="main.js" defer></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script> <!-- Lien avec Vue -->
+    <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script> <!-- GSAP -->
+    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script> <!-- GSAP -->
 
     <!-- Typo importées -->
     <link
@@ -28,7 +30,10 @@
     />
 
     <!-- Swiper -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <title>Portfolio Patricia Nassif</title>
@@ -64,9 +69,18 @@
     <main>
       <!-- Section chats -->
       <section class="chats">
-        <img src="./nassif-patricia-portfolio/Assets/mika.png" alt="Chat - Mika" />
-        <img src="./nassif-patricia-portfolio/Assets/zuma.png" alt="Chat - Zuma" />
-        <img src="./nassif-patricia-portfolio/Assets/zora.png" alt="Chat - Zora" />
+        <img
+          src="./nassif-patricia-portfolio/Assets/mika.png"
+          alt="Chat - Mika"
+        />
+        <img
+          src="./nassif-patricia-portfolio/Assets/zuma.png"
+          alt="Chat - Zuma"
+        />
+        <img
+          src="./nassif-patricia-portfolio/Assets/zora.png"
+          alt="Chat - Zora"
+        />
       </section>
 
       <!-- Mon introduction -->
@@ -75,94 +89,134 @@
 
       <section class="propos">
         <p>
-          Passionnée par le cinéma et le design graphique, j’aime explorer la façon dont
-          l’image et la création visuelle peuvent toucher profondément les gens et leurs
-          émotions. Me plonger dans une histoire, oublier qu’il s’agit d’acteurs et
-          m’investir pleinement dans leur univers visuel et narratif est ce qui m’inspire
-          le plus.<br /><br />
-          Je suis aussi une grande adepte de la gestion et de l’organisation, que je
-          considère comme essentielles à la réussite d’un projet, autant pour son
-          déroulement que pour son résultat final. C’est cette passion qui m’a menée
-          vers le multimédia, un domaine où je peux allier créativité, structure et
-          innovation.
+          Passionnée par le cinéma et le design graphique, j’aime explorer la
+          façon dont l’image et la création visuelle peuvent toucher
+          profondément les gens et leurs émotions. Me plonger dans une histoire,
+          oublier qu’il s’agit d’acteurs et m’investir pleinement dans leur
+          univers visuel et narratif est ce qui m’inspire le plus.<br /><br />
+          Je suis aussi une grande adepte de la gestion et de l’organisation,
+          que je considère comme essentielles à la réussite d’un projet, autant
+          pour son déroulement que pour son résultat final. C’est cette passion
+          qui m’a menée vers le multimédia, un domaine où je peux allier
+          créativité, structure et innovation.
         </p>
       </section>
 
       <!-- Image forêt 1 -->
       <div class="foret1">
-        <img src="./nassif-patricia-portfolio/Assets/foretSoleil.png" alt="Forêt" />
+        <img
+          src="./nassif-patricia-portfolio/Assets/foretSoleil.png"
+          alt="Forêt"
+        />
       </div>
 
       <div class="titre1">
         <h1 class="projetsTitre">MES PROJETS</h1>
-        <img src="./nassif-patricia-portfolio/Assets/ligne.png" class="ligne" alt="Ligne" />
+        <img
+          src="./nassif-patricia-portfolio/Assets/ligne.png"
+          class="ligne"
+          alt="Ligne"
+        />
       </div>
 
-<!-- Section projets (montage Vue) -->
-<section class="projets appli-vue" id="app">
-  <!-- Boucle sur les projets chargés de projects.json -->
-  <div
-    v-for="projet in projects" 
-    :key="projet.id"
-    :class="['projet', 'projet' + projet.id]"
-  >
-    <h1>{{ projet.title }}</h1>
-    <h2>{{ projet.type }} / {{ projet.category }}</h2>
+      <!-- Section projets (montage Vue) -->
+      <section class="projets appli-vue" id="app">
+        <!-- Boucle sur les projets chargés de projects.json -->
+        <div
+          v-for="projet in projects"
+          :key="projet.id"
+          :class="['projet', 'projet' + projet.id]"
+        >
+          <h1>{{ projet.title }}</h1>
+          <h2>{{ projet.type }} / {{ projet.category }}</h2>
 
-    <!-- Si plusieurs images donne carousel Swiper -->
-    <div v-if="projet.images && projet.images.length > 1" class="carousel-container">
-      <div class="swiper">
-        <div class="swiper-wrapper">
+          <!-- Si plusieurs images donne carousel Swiper -->
           <div
-            class="swiper-slide"
-            v-for="(img, idx) in projet.images"
-            :key="idx"
+            v-if="projet.images && projet.images.length > 1"
+            class="carousel-container"
           >
-            <img :src="img" :alt="`Image ${idx + 1}`" @click="openFullscreen(img)" />
-            <button class="fullscreen-btn" @click.prevent="openFullscreen(img)">⛶</button>
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div
+                  class="swiper-slide"
+                  v-for="(img, idx) in projet.images"
+                  :key="idx"
+                >
+                  <img
+                    :src="img"
+                    :alt="`Image ${idx + 1}`"
+                    @click="openFullscreen(img)"
+                  />
+                  <button
+                    class="fullscreen-btn"
+                    @click.prevent="openFullscreen(img)"
+                  >
+                    ⛶
+                  </button>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
           </div>
+
+          <!-- Si une seule image -->
+          <div
+            v-else-if="projet.images && projet.images.length === 1"
+            class="single-image-container"
+          >
+            <img
+              :src="projet.images[0]"
+              :alt="projet.title"
+              class="projet-image"
+              @click="openFullscreen(projet.images[0])"
+            />
+            <button
+              class="fullscreen-btn"
+              @click.prevent="openFullscreen(projet.images[0])"
+            >
+              ⛶
+            </button>
+          </div>
+
+          <!-- Description -->
+          <p>{{ projet.description }}</p>
         </div>
-        <div class="swiper-pagination"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-      </div>
-    </div>
-
-    <!-- Si une seule image -->
-    <div v-else-if="projet.images && projet.images.length === 1" class="single-image-container">
-      <img
-        :src="projet.images[0]"
-        :alt="projet.title"
-        class="projet-image"
-        @click="openFullscreen(projet.images[0])"
-      />
-      <button class="fullscreen-btn" @click.prevent="openFullscreen(projet.images[0])">⛶</button>
-    </div>
-
-    <!-- Description -->
-    <p>{{ projet.description }}</p>
-  </div>
-</section>
-
+      </section>
 
       <!-- Image forêt 2 -->
       <div class="foret2">
-        <img src="./nassif-patricia-portfolio/Assets/foretNormale.png" alt="Forêt" />
+        <img
+          src="./nassif-patricia-portfolio/Assets/foretNormale.png"
+          alt="Forêt"
+        />
       </div>
 
       <div class="titre2">
         <h1 class="contact" id="contact">ME CONTACTER</h1>
-        <img src="./nassif-patricia-portfolio/Assets/ligne.png" class="ligne" alt="Ligne" />
+        <img
+          src="./nassif-patricia-portfolio/Assets/ligne.png"
+          class="ligne"
+          alt="Ligne"
+        />
       </div>
 
       <section class="contacter">
         <div class="contact-wrapper">
           <div class="contact-photo">
-            <img src="./nassif-patricia-portfolio/Assets/photoMoi.png" alt="Photo de moi" />
+            <img
+              src="./nassif-patricia-portfolio/Assets/photoMoi.png"
+              alt="Photo de moi"
+            />
           </div>
           <div class="contact-infos">
             <p><a href="tel:4388854509">438-885-4509</a></p>
-            <p><a href="mailto:nassifpatricia0@gmail.com">nassifpatricia0@gmail.com</a></p>
+            <p>
+              <a href="mailto:nassifpatricia0@gmail.com"
+                >nassifpatricia0@gmail.com</a
+              >
+            </p>
             <p>Saint-Eustache</p>
           </div>
         </div>

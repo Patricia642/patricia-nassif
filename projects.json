@@ -79,9 +79,12 @@
     "category": "GRAPHISME",
     "description": "Je me suis inspirée d’illustrations et d’images sur Pinterest, puis j’ai soit essayé de les recréer, soit de réaliser quelque chose de similaire en illustration.",
     "images": [
-      "./nassif-patricia-portfolio/Assets/illustrations/lemon/Asset 1.png",
-      "./nassif-patricia-portfolio/Assets/illustrations/lemon/Asset 3.png",
-      "./nassif-patricia-portfolio/Assets/illustrations/lemon/citron.png"
+      "./nassif-patricia-portfolio/Assets/illustrations/SOLEIL.png",
+      "./nassif-patricia-portfolio/Assets/illustrations/nuage.png",
+      "./nassif-patricia-portfolio/Assets/illustrations/smart.png",
+      "./nassif-patricia-portfolio/Assets/illustrations/mondeMagique.png",
+      "./nassif-patricia-portfolio/Assets/illustrations/citron.png",
+      "./nassif-patricia-portfolio/Assets/illustrations/lemon.png"
     ]
   }
 ]

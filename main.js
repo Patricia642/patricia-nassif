@@ -64,3 +64,22 @@ const appli = Vue.createApp({ // crée une app Vue
 });
 
 const vm = appli.mount('#app'); // monte l'app Vue sur l'élément id app de mon html
+
+
+gsap.registerPlugin(ScrollTrigger); // appeller le scrolltrigger
+
+document.querySelectorAll('.ligne').forEach((el) => { // pour chaque élément .ligne 
+  gsap.from(el, {
+    scrollTrigger: { 
+      trigger: el, // quand appel cet élément
+      start: "top 90%", // début
+      end: "top 50%", // fin
+      scrub: 0.5,
+      markers: false
+    },
+    scaleX: 0,
+    transformOrigin: "left",
+    ease: "power2.out"
+  });
+});
+
