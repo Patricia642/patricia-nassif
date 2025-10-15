@@ -3,6 +3,8 @@
     "id": 1,
     "title": "GRADUATION",
     "type": "PERSONNELLE",
+    "role": "PHOTOGRAPHE",
+    "equipe": "INDIVIDUELLE",
     "category": "PHOTOGRAPHIE",
     "description": "J’ai préparé mon matériel et organisé la séance photo tout en laissant de la liberté aux clients. Ensuite, j’ai sélectionné, retouché et livré les meilleures photos dans un dossier structuré, accompagné d’un message de remerciement.",
     "images": [
@@ -32,6 +34,8 @@
     "id": 2,
     "title": "NATURE MORTE",
     "type": "ACADÉMIQUE",
+    "role": "PHOTOGRAPHE",
+    "equipe": "INDIVIDUELLE",
     "category": "PHOTOGRAPHIE",
     "description": "J’ai pris de nombreuses photos en prenant le temps nécessaire pour m’assurer que la structure visuelle soit harmonieuse. De plus, j’ai ajusté certaines teintes dans Lightroom afin de mieux contextualiser l’image.",
     "images": [
@@ -46,6 +50,8 @@
     "id": 3,
     "title": "MACRO",
     "type": "ACADÉMIQUE",
+    "role": "RÉALISATRICE",
+    "equipe": "ÉQUIPE: THOMAS ROUSSEL, FÉLIX LÉVESQUE, ALEXANDRE PLANTE-SALMERON",
     "category": "VIDÉO",
     "description": "J’ai choisi le thème des bonnes habitudes de vie et collaboré avec l’équipe pour assurer la réussite du tournage. J’ai réalisé le scénarimage, supervisé le déroulement du tournage en dirigeant l’équipe, puis j’ai contribué au montage de la vidéo.",
     "images": [
@@ -66,6 +72,8 @@
     "id": 4,
     "title": "CRITIQUE",
     "type": "ACADÉMIQUE",
+    "role": "DESIGNER ET DÉVELOPPEUSE",
+    "equipe": "INDIVIDUELLE",
     "category": "WEB",
     "description": "J’ai choisi un sujet, défini la structure générale pour l’utilisation de Bootstrap et élaboré un plan visuel sur papier. Ensuite, j’ai écrit le code et finalisé la page.",
     "images": [
@@ -76,6 +84,8 @@
     "id": 5,
     "title": "VIXEN",
     "type": "ACADÉMIQUE",
+    "role": "MODÉLISATION ET ANIMATION 3D",
+    "equipe": "INDIVIDUELLE",
     "category": "ANIMATION 3D",
     "description": "J’ai créé un moodboard, choisi mon mot, modélisé la lampe et préparé la scène. Ensuite, j’ai animé l’ensemble en ajustant l’éclairage, exporté le projet et l’ai importé dans DaVinci Resolve pour y ajouter la bande sonore.",
     "images": [
@@ -86,6 +96,8 @@
     "id": 6,
     "title": "GRAPHISME",
     "type": "PERSONNELLE",
+    "role": "GRAPHISME",
+    "equipe": "INDIVIDUELLE",
     "category": "GRAPHISME",
     "description": "Je me suis inspirée d’illustrations et d’images sur Pinterest, puis j’ai soit essayé de les recréer, soit de réaliser quelque chose de similaire en illustration.",
     "images": [
