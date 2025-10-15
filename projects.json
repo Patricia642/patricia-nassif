@@ -6,7 +6,7 @@
     "role": "PHOTOGRAPHE",
     "equipe": "INDIVIDUELLE",
     "category": "PHOTOGRAPHIE",
-    "description": "J’ai préparé mon matériel et organisé la séance photo tout en laissant de la liberté aux clients. Ensuite, j’ai sélectionné, retouché et livré les meilleures photos dans un dossier structuré, accompagné d’un message de remerciement.",
+    "description": "J’ai soigneusement préparé le matériel et organisé la séance photo, tout en laissant une grande liberté aux clients pour capturer des moments authentiques et spontanés. L’esthétique recherchée était romantique et intemporelle, afin de transmettre une émotion douce et sincère. Après la séance, j’ai sélectionné et retouché les meilleures photos, que j’ai ensuite livrées dans un dossier structuré, accompagné d’un message personnalisé de remerciement.",
     "images": [
       "./nassif-patricia-portfolio/Assets/graduation/img1.JPG",
       "./nassif-patricia-portfolio/Assets/graduation/img2.JPG",
@@ -37,7 +37,7 @@
     "role": "PHOTOGRAPHE",
     "equipe": "INDIVIDUELLE",
     "category": "PHOTOGRAPHIE",
-    "description": "J’ai pris de nombreuses photos en prenant le temps nécessaire pour m’assurer que la structure visuelle soit harmonieuse. De plus, j’ai ajusté certaines teintes dans Lightroom afin de mieux contextualiser l’image.",
+    "description": "DESCRIPTION: Pour ce projet, il fallait réaliser plusieurs photographies de nature morte en expérimentant différents angles. L’objectif était de rendre l’image visuellement attrayante. Pour ce projet, j’ai réalisé plusieurs photographies de nature morte en explorant différents angles pour créer des images visuellement harmonieuses. J’ai pris soin de la composition et ajusté les teintes dans Lightroom afin de renforcer l’ambiance et la cohérence visuelle.",
     "images": [
       "./nassif-patricia-portfolio/Assets/nature-morte/img1.JPG",
       "./nassif-patricia-portfolio/Assets/nature-morte/img2.JPG",
@@ -53,7 +53,7 @@
     "role": "RÉALISATRICE",
     "equipe": "ÉQUIPE: THOMAS ROUSSEL, FÉLIX LÉVESQUE, ALEXANDRE PLANTE-SALMERON",
     "category": "VIDÉO",
-    "description": "J’ai choisi le thème des bonnes habitudes de vie et collaboré avec l’équipe pour assurer la réussite du tournage. J’ai réalisé le scénarimage, supervisé le déroulement du tournage en dirigeant l’équipe, puis j’ai contribué au montage de la vidéo.",
+    "description": "DESCRIPTION: Le professeur demandait de réaliser une vidéo d’au moins 1 minute 30, filmée presque exclusivement en macro. Il fallait aussi choisir un thème personnel et monter le projet en équipe. J’ai choisi le thème des bonnes habitudes de vie à travers la symbolique des mains et imaginé un scénario sobre, légèrement romantique et adapté aux acteurs masculins. J’ai réalisé le scénarimage, supervisé le tournage en respectant la narration, puis contribué au montage final.",
     "images": [
       "./nassif-patricia-portfolio/Assets/video/MACRO.png",
       "./nassif-patricia-portfolio/Assets/video/macroMoodboard.png",
@@ -75,7 +75,7 @@
     "role": "DESIGNER ET DÉVELOPPEUSE",
     "equipe": "INDIVIDUELLE",
     "category": "WEB",
-    "description": "J’ai choisi un sujet, défini la structure générale pour l’utilisation de Bootstrap et élaboré un plan visuel sur papier. Ensuite, j’ai écrit le code et finalisé la page.",
+    "description": "DESCRIPTION : Ce projet consistait à rédiger une critique web d’une page en utilisant Bootstrap, sur un sujet de notre choix. J’ai choisi House of the Dragon, une de mes séries préférées, pour son univers riche, sa narration complexe et sa direction artistique soignée. J’ai d’abord conçu un plan visuel sur papier afin d’organiser le contenu et l’esthétique de la page. Ensuite, j’ai utilisé Bootstrap pour structurer la mise en page de façon responsive, avant de coder et finaliser l’ensemble. Une attention particulière a été portée à l’ergonomie, à la lisibilité et à l’équilibre visuel du projet.",
     "images": [
       "./nassif-patricia-portfolio/Assets/web/CRITIQUE.png"
     ]
@@ -87,7 +87,7 @@
     "role": "MODÉLISATION ET ANIMATION 3D",
     "equipe": "INDIVIDUELLE",
     "category": "ANIMATION 3D",
-    "description": "J’ai créé un moodboard, choisi mon mot, modélisé la lampe et préparé la scène. Ensuite, j’ai animé l’ensemble en ajustant l’éclairage, exporté le projet et l’ai importé dans DaVinci Resolve pour y ajouter la bande sonore.",
+    "description": "DESCRIPTION: Réaliser un pastiche de l’introduction Pixar en choisissant un mot, puis modéliser et créer le rig de la lampe avant d’animer le tout. J’ai choisi le mot « Vixen », une renarde espiègle, pour créer un univers stylisé et dynamique. J’ai réalisé un pastiche de l’introduction Pixar en modélisant, animant et donnant vie à la lampe, avant de finaliser le projet dans DaVinci Resolve avec l’ajout de l’éclairage et de la bande sonore.",
     "images": [
       "./nassif-patricia-portfolio/Assets/VIXEN.png"
     ]
@@ -99,7 +99,7 @@
     "role": "GRAPHISME",
     "equipe": "INDIVIDUELLE",
     "category": "GRAPHISME",
-    "description": "Je me suis inspirée d’illustrations et d’images sur Pinterest, puis j’ai soit essayé de les recréer, soit de réaliser quelque chose de similaire en illustration.",
+    "description": "Je me suis inspirée d’illustrations et d’images sélectionnées sur Pinterest afin d’analyser les styles et techniques visuels qui m’attiraient. Ensuite, j’ai entrepris de recréer ces influences à travers mes propres illustrations, en adaptant les éléments à mon style personnel. Cette démarche m’a permis à la fois de m’amuser dans le processus créatif et de développer mes compétences en illustration de manière pratique et réfléchie.",
     "images": [
       "./nassif-patricia-portfolio/Assets/illustrations/SOLEIL.png",
       "./nassif-patricia-portfolio/Assets/illustrations/nuage.png",
