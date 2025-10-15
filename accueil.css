@@ -18,7 +18,7 @@ main {
 /*Section Hero */
 .hero {
   position: relative;
-  width: 100vw;
+  width: 100vw-10px;
   border-radius: 0 0 50px 50px; 
   overflow: hidden;             
 }
@@ -107,7 +107,7 @@ footer p {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 30%;  
-  max-width: 700px;
+  max-width: 1000px;
   height: auto;
   z-index: 10;
 }
