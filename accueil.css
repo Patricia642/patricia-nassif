@@ -18,7 +18,7 @@ main {
 /*Section Hero */
 .hero {
   position: relative;
-  width: 100vw-10px;
+  width: calc(100vw - 10px);
   border-radius: 0 0 50px 50px; 
   overflow: hidden;             
 }
@@ -152,6 +152,19 @@ p {
   margin: 100px auto;  
   font-size: 48px;
   color: black; 
+}
+
+/* logiciels centré */
+.propos .logiciels {
+  max-width: 100%;  
+  margin: 100px auto;
+  text-align: center;
+  font-size: 48px;
+}
+
+/* logiciels au survol */
+.propos .logiciels:hover {
+  color: #7C8064;
 }
 
 /* Mon image de foret 1 centré */
@@ -458,6 +471,12 @@ h1.contact {
     font-size: 24px;
     width: 90%;
     margin: 50px auto;
+  }
+
+  /* logiciels plus petite typo */
+  .propos .logiciels {
+  text-align: center;
+  font-size: 24px;
   }
 
   /* img plus petite */
