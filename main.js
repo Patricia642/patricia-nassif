@@ -83,3 +83,12 @@ document.querySelectorAll('.ligne').forEach((el) => { // pour chaque élément .
   });
 });
 
+//Animation de l'image de mon logo
+gsap.from(".logo", {
+  scale: 0,
+  opacity: 0,
+  duration: 1.5,
+  ease: "power3.out",
+  delay: 1.5 
+});
+
