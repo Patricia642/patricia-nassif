@@ -2,7 +2,7 @@ body {
   width: 100%;
   height: auto;
   background-color: #F5F2E1;
-  margin: 0; 
+  margin: 0;
   font-family: 'Imbue', serif;
   overflow-x: hidden;
 }
@@ -19,15 +19,15 @@ main {
 .hero {
   position: relative;
   width: calc(100vw - 10px);
-  border-radius: 0 0 50px 50px; 
-  overflow: hidden;             
+  border-radius: 0 0 50px 50px;
+  overflow: hidden;
 }
 
 /* Image de fond */
 .hero .fond {
   width: 100vw;
-  height: auto;        
-  object-fit: cover;    
+  height: auto;
+  object-fit: cover;
   display: flex;
 }
 
@@ -39,25 +39,25 @@ main {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.2); 
-  z-index: 1; 
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
 
 /* le fond vert de mon bas de page */
 footer {
-  display: flex;              
-  justify-content: center;     
-  align-items: center;          
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #757A4A;
-  padding: 10px 0; 
-  width: 100%;            
-  height: auto;                 
+  padding: 10px 0;
+  width: 100%;
+  height: auto;
 }
 
 /* le text de mon bas de page */
 footer p {
-  margin: 0;                    
+  margin: 0;
   padding: 0;
   font-size: 24px;
   color: #F5F2E1;
@@ -66,38 +66,38 @@ footer p {
 
 /* Emplacement menu */
 #Menu {
-  position: fixed;  
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   padding: 20px 0;
-  z-index: 11;         
+  z-index: 11;
 }
 
 /* Emplacement des choses dans mon menu */
 #Menu ul {
-  list-style: none;       
+  list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: space-around;
-  gap: 20px;  
-  flex-wrap: wrap;                
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 /* Le text de mon menu */
 #Menu a {
-  text-decoration: none; 
-  font-family: 'Imbue', serif; 
-  color: #F0DC65;          
+  text-decoration: none;
+  font-family: 'Imbue', serif;
+  color: #F0DC65;
   font-size: 56px;
   padding: 5px 10px;
-  text-shadow: 2px 2px 5px rgba(0,0,0,1);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
 }
 
 /* Mon menu au survol */
-#Menu a:hover { 
-  color: #EFBF04;          
+#Menu a:hover {
+  color: #EFBF04;
 }
 
 /* Mon logo par dessus mon image de fond */
@@ -106,7 +106,7 @@ footer p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 30%;  
+  width: 30%;
   max-width: 1000px;
   height: auto;
   z-index: 10;
@@ -114,49 +114,49 @@ footer p {
 
 /* Le parent des mes images de chats */
 .chats {
-  display: flex;              
-  justify-content: center;     
-  align-items: center;        
-  margin: 200px 0;            
-  gap: 125px;                  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 200px 0;
+  gap: 125px;
 }
 
 /* Mes images de chats */
 .chats img {
-  max-width: 100%;             
-  height: auto;       
+  max-width: 100%;
+  height: auto;
 }
 
 /* Mon nom centré */
 h1 {
-  text-align: center;  
-  width: 800px;        
-  margin: 0 auto;  
-  font-size: 128px; 
-  color: #7C8064;   
+  text-align: center;
+  width: 800px;
+  margin: 0 auto;
+  font-size: 128px;
+  color: #7C8064;
 }
 
 /* Mon bienvenue */
 h2 {
-  text-align: center;  
-  width: 1000px;        
-  margin: 0 auto; 
-  font-size: 96px;  
-  font-family: 'Kapakana', serif;   
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+  font-size: 96px;
+  font-family: 'Kapakana', serif;
 }
 
 /* Mon à propos de moi */
 p {
-  text-align: left;  
-  width: 1300px;       
-  margin: 100px auto;  
+  text-align: left;
+  width: 1300px;
+  margin: 100px auto;
   font-size: 48px;
-  color: black; 
+  color: black;
 }
 
 /* logiciels centré */
 .propos .logiciels {
-  max-width: 100%;  
+  max-width: 100%;
   margin: 100px auto;
   text-align: center;
   font-size: 48px;
@@ -170,48 +170,54 @@ p {
 /* Mon image de foret 1 centré */
 .foret1 {
   display: flex;
-  justify-content: center;   
-  align-items: center;  
-  padding-top: 50px;     
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
   padding-bottom: 150px;
 }
 
 /* Le parent de mon titre 1 et de la ligne centré */
-.titre1, .titre2 {
+.titre1,
+.titre2 {
   text-align: center;
 }
 
 /* mon titre mes projets */
-h1.projetsTitre {  
+h1.projetsTitre {
   font-size: 128px;
   color: #7C8064;
-  width: 100%;         
+  width: 100%;
 }
 
-h1.contact {  
+h1.contact {
   font-size: 128px;
   color: #7C8064;
-  width: 100%;         
+  width: 100%;
 }
 
 /* La ligne en dessous de mon titre mes projets */
 .ligne {
   display: block;
-  margin: 0 auto;   
+  margin: 0 auto;
 }
 
 /* Conteneur de tous les projets */
 .projets {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; 
-  max-width: 1290px;              
-  margin: 0 auto 50px auto;          
+  justify-content: space-between;
+  max-width: 1290px;
+  margin: 0 auto 50px auto;
 }
 
 /* Gros rectangles verts pour Projets */
-.projet1, .projet2, .projet3, .projet4, .projet5, .projet6 {
-  width: 48%;                    
+.projet1,
+.projet2,
+.projet3,
+.projet4,
+.projet5,
+.projet6 {
+  width: 48%;
   background-color: #757A4A;
   border-radius: 50px;
   padding: 40px;
@@ -221,7 +227,7 @@ h1.contact {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 40px; 
+  gap: 40px;
   margin-top: 55px;
 }
 
@@ -243,16 +249,16 @@ h1.contact {
 
 /* Conteneur du carrousel */
 .carousel-container {
-  width: 100%;          
-  padding: 0;           
-  margin: 0;        
+  width: 100%;
+  padding: 0;
+  margin: 0;
   background-color: transparent;
 }
 
 /* Swiper global */
 .swiper {
-  width: 100%;           
-  height: 500px;         
+  width: 100%;
+  height: 500px;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
@@ -260,7 +266,7 @@ h1.contact {
 
 /* Slides (images) */
 .swiper-slide {
-  width: 100%;          
+  width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -269,46 +275,51 @@ h1.contact {
 
 /* Images des slides */
 .swiper-slide img {
-  width: 100%;          
-  height: 100%;         
-  object-fit: cover;    
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* (points) */
 .swiper-pagination {
-  bottom: 15px 
+  bottom: 15px
 }
 
 /* Couleur du cercle actif */
 .swiper-pagination-bullet-active {
-  background-color: #F5F2E1 !important; /*important pour l'obliger à prendre la bonne couleur*/
+  background-color: #F5F2E1 !important;
+  /*important pour l'obliger à prendre la bonne couleur*/
   opacity: 1;
 }
 
 /* Flèches de navigation */
 .swiper-button-next,
 .swiper-button-prev {
-  color: #F5F2E1 !important; /*important pour l'obliger à prendre la bonne couleur*/
+  color: #F5F2E1 !important;
+  /*important pour l'obliger à prendre la bonne couleur*/
   transition: color 0.3s ease;
 }
 
 /* Flèches de navigation */
 .swiper-button-next,
 .swiper-button-prev {
-  color: #F5F2E1 !important; /*important pour l'obliger à prendre la bonne couleur*/
+  color: #F5F2E1 !important;
+  /*important pour l'obliger à prendre la bonne couleur*/
   transition: color 0.3s ease;
 }
 
 /*Les UI et UX du swiper au survol*/
 .swiper-pagination-bullet:hover {
-  background-color: #EFBF04 !important; /*important pour l'obliger à prendre la bonne couleur*/
+  background-color: #EFBF04 !important;
+  /*important pour l'obliger à prendre la bonne couleur*/
   opacity: 1;
 }
 
 /*Les UI et UX du swiper au survol*/
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
-  color: #EFBF04 !important; /*important pour l'obliger à prendre la bonne couleur*/
+  color: #EFBF04 !important;
+  /*important pour l'obliger à prendre la bonne couleur*/
 }
 
 /*spécifications pour mon btn d'agrandissement*/
@@ -335,28 +346,28 @@ h1.contact {
 /*spécifications pour projets avec une seule image*/
 .projet3 .projet-image {
   width: 100%;
-  height: 500px;       
-  object-fit: cover;    
-  border-radius: 20px; 
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25); 
+  height: 500px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
 }
 
 /*spécifications pour projets avec une seule image*/
 .projet4 .projet-image {
   width: 100%;
-  height: 500px;       
-  object-fit: cover;    
-  border-radius: 20px; 
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25); 
+  height: 500px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
 }
 
 /*spécifications pour projets avec une seule image*/
 .projet5 .projet-image {
   width: 100%;
-  height: 500px;       
-  object-fit: cover;    
-  border-radius: 20px; 
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25); 
+  height: 500px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
 }
 
 
@@ -375,9 +386,9 @@ h1.contact {
 /* Mon image de foret 2 centré */
 .foret2 {
   display: flex;
-  justify-content: center;   
-  align-items: center;  
-  padding-top: 50px;     
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
   padding-bottom: 150px;
 }
 
@@ -386,19 +397,19 @@ h1.contact {
   display: flex;
   justify-content: center;
   margin: 50px auto;
-  max-width: 1290px; 
+  max-width: 1290px;
 }
 
 /* parent de ma photo et mes infos  */
 .contact-wrapper {
   display: flex;
-  gap: 40px;       
-  width: 90%;    
+  gap: 40px;
+  width: 90%;
 }
 
 /* ma photo grandeur */
 .contact-photo img {
-  width: 550px;        
+  width: 550px;
   height: auto;
 }
 
@@ -420,18 +431,19 @@ h1.contact {
 
 /* mes infos a allure */
 .contact-infos a {
-  color: black;         
-  text-decoration: none;  
+  color: black;
+  text-decoration: none;
 }
 
 /* mes infos a au survol */
 .contact-infos a:hover {
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 
 
 /* Mobile */
 @media screen and (max-width: 992px) {
+
   /* gap de menu plus petite */
   #Menu ul {
     gap: 10px;
@@ -445,7 +457,7 @@ h1.contact {
 
   /* hero img plus petite */
   .hero .fond {
-    height: auto; 
+    height: auto;
   }
 
   /* Logo plus petit */
@@ -475,21 +487,21 @@ h1.contact {
 
   /* logiciels plus petite typo */
   .propos .logiciels {
-  text-align: center;
-  font-size: 24px;
+    text-align: center;
+    font-size: 24px;
   }
 
   /* img plus petite */
   .foret1 img {
-    width: 90%;       
-    max-width: 900px; 
+    width: 90%;
+    max-width: 900px;
     height: auto;
   }
 
   /* img plus petite */
   .foret2 img {
-    width: 90%;       
-    max-width: 900px; 
+    width: 90%;
+    max-width: 900px;
     height: auto;
   }
 
@@ -502,7 +514,7 @@ h1.contact {
 
   /* img chats taille*/
   .chats img {
-    width: 30%;            
+    width: 30%;
     height: auto;
   }
 
@@ -512,13 +524,18 @@ h1.contact {
     flex-direction: column;
     gap: 50px;
     margin: 50px 0;
-    align-items: center; 
+    align-items: center;
   }
 
   /* Projets dimensions */
-  .projet1, .projet2, .projet3, .projet4, .projet5, .projet6 {
-    width: 90%;          
-    max-width: 900px;   
+  .projet1,
+  .projet2,
+  .projet3,
+  .projet4,
+  .projet5,
+  .projet6 {
+    width: 90%;
+    max-width: 900px;
     height: auto;
     padding: 20px;
     gap: 30px;
@@ -526,9 +543,9 @@ h1.contact {
 
   /* images de projets plus petites */
   .projet-image {
-    height: auto; 
-    max-height: 300px; 
-    width: 100%; 
+    height: auto;
+    max-height: 300px;
+    width: 100%;
     object-fit: cover;
   }
 
@@ -557,7 +574,7 @@ h1.contact {
     text-align: center;
     gap: 5px;
   }
-  
+
   /* centré */
   .contact-infos {
     width: 100%;
@@ -566,7 +583,7 @@ h1.contact {
     align-items: center;
     text-align: center;
   }
-  
+
   /* centré */
   .contact-infos p {
     font-size: 45px;
@@ -574,31 +591,32 @@ h1.contact {
     text-align: center;
     width: 100%;
   }
-  
+
   /* centré */
   .contact-infos p a {
     display: inline-block;
     text-align: center;
     width: auto;
   }
-  
+
   /* ma photo plus petite */
   .contact-photo img {
-    width: 80%;                  
-    max-width: 400px;            
+    width: 80%;
+    max-width: 400px;
     height: auto;
   }
 
   /* typo plus petite pour mes titres 1 et 2 */
-  h1.contact, h1.projetsTitre {
-  font-size: 88px;
+  h1.contact,
+  h1.projetsTitre {
+    font-size: 88px;
   }
 
   /* arranger la largeur de mes lignes */
   .ligne {
-  width: 90%;       
-  max-width: 900px; 
-  height: auto; 
+    width: 90%;
+    max-width: 900px;
+    height: auto;
   }
 
   /* swiper plus petit */
@@ -609,7 +627,6 @@ h1.contact {
   /* img swiper plus petites */
   .swiper-slide img {
     width: 100%;
-    height: 300px; 
+    height: 300px;
   }
 }
-
