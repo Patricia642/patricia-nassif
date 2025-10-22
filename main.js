@@ -15,6 +15,7 @@ const appli = Vue.createApp({ // crée une app Vue
         this.projects = data; // stocke les projets dans la donnée Vue
         this.$nextTick(() => { // attend que Vue mette à jour le DOM
           this.initSwipers(); // Initialise les Swiper
+          this.initAnimations(); // Initialise les animations GSAP
         });
       })
       .catch(error => {
@@ -35,6 +36,29 @@ const appli = Vue.createApp({ // crée une app Vue
             nextEl: el.querySelector('.swiper-button-next'), // flèche suivante
             prevEl: el.querySelector('.swiper-button-prev') // flèche précédente
           }
+        });
+      });
+    },
+
+    // Initialise les animations GSAP pour les lignes
+    initAnimations() {
+      gsap.registerPlugin(ScrollTrigger);
+
+      // Nettoie les ScrollTrigger existants pour éviter doublons
+      ScrollTrigger.getAll().forEach(trigger => trigger.kill());
+
+      document.querySelectorAll('.ligne').forEach((el) => {
+        gsap.from(el, {
+          scrollTrigger: {
+            trigger: el, // quand appel cet élément
+            start: "top 90%", // début
+            end: "top 50%", // fin
+            scrub: 0.5,
+            markers: false
+          },
+          scaleX: 0,
+          transformOrigin: "left",
+          ease: "power2.out"
         });
       });
     },
@@ -65,24 +89,6 @@ const appli = Vue.createApp({ // crée une app Vue
 
 const vm = appli.mount('#app'); // monte l'app Vue sur l'élément id app de mon html
 
-
-gsap.registerPlugin(ScrollTrigger); // appeller le scrolltrigger
-
-document.querySelectorAll('.ligne').forEach((el) => { // pour chaque élément .ligne 
-  gsap.from(el, {
-    scrollTrigger: {
-      trigger: el, // quand appel cet élément
-      start: "top 90%", // début
-      end: "top 50%", // fin
-      scrub: 0.5,
-      markers: false
-    },
-    scaleX: 0,
-    transformOrigin: "left",
-    ease: "power2.out"
-  });
-});
-
 //Animation de l'image de mon logo
 gsap.from(".logo", {
   scale: 0,
@@ -91,3 +97,20 @@ gsap.from(".logo", {
   ease: "power3.out",
   delay: 1
 });
+
+function checkMenuBlur() {
+  const menu = document.getElementById('Menu');
+  const hero = document.querySelector('.hero');
+  const heroBottom = hero.getBoundingClientRect().bottom;
+
+  if (heroBottom <= 0) {
+    menu.style.backgroundColor = 'rgba(255, 255, 255, 0.5)';
+    menu.style.backdropFilter = 'blur(8px)';
+  } else {
+    menu.style.backgroundColor = 'transparent';
+    menu.style.backdropFilter = 'none';
+  }
+}
+
+window.addEventListener('scroll', checkMenuBlur);
+window.addEventListener('load', checkMenuBlur);

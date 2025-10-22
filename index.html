@@ -120,7 +120,7 @@
 
         <p>ROLE: {{ projet.role }}</p>
         <!-- Description -->
-        <p>{{ projet.description }}</p>
+        <p v-html="projet.description"></p>
         <p>{{ projet.equipe }}</p>
       </div>
     </div>
