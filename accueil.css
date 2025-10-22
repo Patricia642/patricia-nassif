@@ -11,24 +11,53 @@ html {
   scroll-behavior: smooth;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #F5F2E1;
+}
+
 main {
   width: 100%;
+}
+
+header {
+  height: 100vh; 
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 /*Section Hero */
 .hero {
   position: relative;
-  width: calc(100vw - 10px);
-  border-radius: 0 0 50px 50px;
+  width: calc(100vw - 15px);
+  height: 100vh;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 50px 50px;
+}
+
+.logo {
+  width: 70vw;
+  max-width: 400px;
+  min-width: 150px;
+  height: auto;
+  z-index: 10;
 }
 
 /* Image de fond */
 .hero .fond {
-  width: 100vw;
-  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
   object-fit: cover;
-  display: flex;
+  z-index: 0;
 }
 
 /* filtre noir sur mon hero de 20% pour mieux voir mon logo */
@@ -41,6 +70,8 @@ main {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   z-index: 1;
+  pointer-events: none;
+  overflow: hidden;
 }
 
 
@@ -106,8 +137,9 @@ footer p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 30%;
-  max-width: 1000px;
+  width: 70vw;
+  max-width: 400px;
+  min-width: 150px;
   height: auto;
   z-index: 10;
 }
@@ -342,7 +374,6 @@ h1.contact {
   position: relative;
 }
 
-
 /*spécifications pour projets avec une seule image*/
 .projet3 .projet-image {
   width: 100%;
@@ -369,9 +400,6 @@ h1.contact {
   border-radius: 20px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
 }
-
-
-
 
 /* Description de mes projets */
 .projets p {
@@ -440,7 +468,6 @@ h1.contact {
   text-decoration: underline;
 }
 
-
 /* Mobile */
 @media screen and (max-width: 992px) {
 
@@ -455,16 +482,21 @@ h1.contact {
     font-size: 25px;
   }
 
-  /* hero img plus petite */
+  .hero {
+    height: 80vh;
+    min-height: 400px;
+  }
+
   .hero .fond {
-    height: auto;
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
   }
 
   /* Logo plus petit */
   .logo {
-    width: 30%;
-    max-width: 200px;
-    height: auto;
+    width: 25vw;
+    max-width: 250px;
   }
 
   /* Typo et largeur plus petite */
