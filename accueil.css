@@ -462,8 +462,9 @@ h1.contact {
 
   /* Logo plus petit */
   .logo {
-    width: 50%;
-    max-width: 150px;
+    width: 30%;
+    max-width: 200px;
+    height: auto;
   }
 
   /* Typo et largeur plus petite */
