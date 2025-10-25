@@ -1,4 +1,5 @@
-[{
+[
+  {
     "id": 1,
     "title": "GRADUATION",
     "type": "PERSONNELLE",
@@ -54,7 +55,7 @@
     "category": "VIDÉO",
     "description": "DESCRIPTION: Le professeur demandait de réaliser une vidéo d’au moins 1 minute 30, filmée presque exclusivement en macro. Il fallait aussi choisir un thème personnel et monter le projet en équipe. J’ai choisi le thème des bonnes habitudes de vie à travers la symbolique des mains et imaginé un scénario sobre, légèrement romantique et adapté aux acteurs masculins. J’ai réalisé le scénarimage, supervisé le tournage en respectant la narration, puis contribué au montage final.</p><p><a href=\"https://youtu.be/faHFoSHsRig\" target=\"_blank\" rel=\"noopener noreferrer\">Voir le projet ici</a>",
     "images": [
-      "./nassif-patricia-portfolio/Assets/video/MACRO.png",
+      "./nassif-patricia-portfolio/Assets/video/macro.png",
       "./nassif-patricia-portfolio/Assets/video/macroMoodboard.png",
       "./nassif-patricia-portfolio/Assets/video/macro1.png",
       "./nassif-patricia-portfolio/Assets/video/macro2.png",
@@ -75,9 +76,7 @@
     "equipe": "INDIVIDUELLE",
     "category": "WEB",
     "description": "DESCRIPTION : Ce projet consistait à rédiger une critique web d’une page en utilisant Bootstrap, sur un sujet de notre choix. J’ai choisi House of the Dragon, une de mes séries préférées, pour son univers riche, sa narration complexe et sa direction artistique soignée. J’ai d’abord conçu un plan visuel sur papier afin d’organiser le contenu et l’esthétique de la page. Ensuite, j’ai utilisé Bootstrap pour structurer la mise en page de façon responsive, avant de coder et finaliser l’ensemble. Une attention particulière a été portée à l’ergonomie, à la lisibilité et à l’équilibre visuel du projet.",
-    "images": [
-      "./nassif-patricia-portfolio/Assets/web/CRITIQUE.png"
-    ]
+    "images": ["./nassif-patricia-portfolio/Assets/web/house-of-the-dragon.png"]
   },
   {
     "id": 5,
@@ -87,9 +86,7 @@
     "equipe": "INDIVIDUELLE",
     "category": "ANIMATION 3D",
     "description": "DESCRIPTION: Réaliser un pastiche de l’introduction Pixar en choisissant un mot, puis modéliser et créer le rig de la lampe avant d’animer le tout. J’ai choisi le mot « Vixen », une renarde espiègle, pour créer un univers stylisé et dynamique. J’ai réalisé un pastiche de l’introduction Pixar en modélisant, animant et donnant vie à la lampe, avant de finaliser le projet dans DaVinci Resolve avec l’ajout de l’éclairage et de la bande sonore.</p><p><a href=\"https://youtu.be/CaYdQOFyk5w\" target=\"_blank\" rel=\"noopener noreferrer\">Voir le projet ici</a>",
-    "images": [
-      "./nassif-patricia-portfolio/Assets/VIXEN.png"
-    ]
+    "images": ["./nassif-patricia-portfolio/Assets/vixen.png"]
   },
   {
     "id": 6,
@@ -100,7 +97,7 @@
     "category": "GRAPHISME",
     "description": "Je me suis inspirée d’illustrations et d’images sélectionnées sur Pinterest afin d’analyser les styles et techniques visuels qui m’attiraient. Ensuite, j’ai entrepris de recréer ces influences à travers mes propres illustrations, en adaptant les éléments à mon style personnel. Cette démarche m’a permis à la fois de m’amuser dans le processus créatif et de développer mes compétences en illustration de manière pratique et réfléchie.<br><br>",
     "images": [
-      "./nassif-patricia-portfolio/Assets/illustrations/SOLEIL.png",
+      "./nassif-patricia-portfolio/Assets/illustrations/soleil.png",
       "./nassif-patricia-portfolio/Assets/illustrations/nuage.png",
       "./nassif-patricia-portfolio/Assets/illustrations/smart.png",
       "./nassif-patricia-portfolio/Assets/illustrations/mondeMagique.png",

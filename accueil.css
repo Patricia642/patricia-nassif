@@ -2,9 +2,9 @@
 body {
   width: 100%;
   height: auto;
-  background-color: #F5F2E1;
+  background-color: #f5f2e1;
   margin: 0;
-  font-family: 'Imbue', serif;
+  font-family: "Imbue", serif;
   overflow-x: hidden;
 }
 
@@ -19,7 +19,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background-color: #F5F2E1;
+  background-color: #f5f2e1;
 }
 
 /* zone principale du contenu */
@@ -79,13 +79,12 @@ header {
   overflow: hidden;
 }
 
-
 /* le fond vert de mon bas de page */
 footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #757A4A;
+  background-color: #757a4a;
   padding: 10px 0;
   width: 100%;
   height: auto;
@@ -96,7 +95,7 @@ footer p {
   margin: 0;
   padding: 0;
   font-size: 24px;
-  color: #F5F2E1;
+  color: #f5f2e1;
   text-align: center;
 }
 
@@ -127,8 +126,8 @@ footer p {
 /* liens du menu */
 #Menu a {
   text-decoration: none;
-  font-family: 'Imbue', serif;
-  color: #F0DC65;
+  font-family: "Imbue", serif;
+  color: #f0dc65;
   font-size: 56px;
   padding: 5px 10px;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
@@ -136,7 +135,7 @@ footer p {
 
 /* couleur des liens au survol */
 #Menu a:hover {
-  color: #EFBF04;
+  color: #efbf04;
 }
 
 /* position du logo au centre du hero */
@@ -173,7 +172,7 @@ h1 {
   width: 800px;
   margin: 0 auto;
   font-size: 128px;
-  color: #7C8064;
+  color: #7c8064;
 }
 
 /* Mon bienvenue */
@@ -182,7 +181,7 @@ h2 {
   width: 1000px;
   margin: 0 auto;
   font-size: 96px;
-  font-family: 'Kapakana', serif;
+  font-family: "Kapakana", serif;
 }
 
 /* Mon à propos de moi */
@@ -220,14 +219,14 @@ p {
 /* titre de la section projets */
 h1.projetsTitre {
   font-size: 128px;
-  color: #7C8064;
+  color: #7c8064;
   width: 100%;
 }
 
 /* titre de la section contact */
 h1.contact {
   font-size: 128px;
-  color: #7C8064;
+  color: #7c8064;
   width: 100%;
 }
 
@@ -254,11 +253,11 @@ h1.contact {
 .projet5,
 .projet6 {
   width: 48%;
-  background-color: #757A4A;
+  background-color: #757a4a;
   border-radius: 50px;
   padding: 40px;
   height: 1450px;
-  color: #F5F2E1;
+  color: #f5f2e1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -271,7 +270,7 @@ h1.contact {
 .projets h1 {
   font-size: 96px;
   margin: 0;
-  color: #F5F2E1;
+  color: #f5f2e1;
 }
 
 /* sous-titre dans un projet */
@@ -279,8 +278,8 @@ h1.contact {
   font-size: 52px;
   margin: 0;
   font-weight: normal;
-  color: #F5F2E1;
-  font-family: 'Imbue', serif;
+  color: #f5f2e1;
+  font-family: "Imbue", serif;
 }
 
 /* bloc contenant le carrousel d’images */
@@ -318,19 +317,19 @@ h1.contact {
 
 /* position des points de pagination */
 .swiper-pagination {
-  bottom: 15px
+  bottom: 15px;
 }
 
 /* couleur du point actif */
 .swiper-pagination-bullet-active {
-  background-color: #F5F2E1 !important; /*important pour l'obliger à prendre la bonne couleur*/
+  background-color: #f5f2e1 !important; /*important pour l'obliger à prendre la bonne couleur*/
   opacity: 1;
 }
 
 /* Flèches de navigation */
 .swiper-button-next,
 .swiper-button-prev {
-  color: #F5F2E1 !important;
+  color: #f5f2e1 !important;
   /*important pour l'obliger à prendre la bonne couleur*/
   transition: color 0.3s ease;
 }
@@ -338,20 +337,20 @@ h1.contact {
 /* flèches de navigation */
 .swiper-button-next,
 .swiper-button-prev {
-  color: #F5F2E1 !important; /*important pour l'obliger à prendre la bonne couleur*/
+  color: #f5f2e1 !important; /*important pour l'obliger à prendre la bonne couleur*/
   transition: color 0.3s ease;
 }
 
 /* points au survol */
 .swiper-pagination-bullet:hover {
-  background-color: #EFBF04 !important; /*important pour l'obliger à prendre la bonne couleur*/
+  background-color: #efbf04 !important; /*important pour l'obliger à prendre la bonne couleur*/
   opacity: 1;
 }
 
 /* flèches au survol */
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
-  color: #EFBF04 !important; /*important pour l'obliger à prendre la bonne couleur*/
+  color: #efbf04 !important; /*important pour l'obliger à prendre la bonne couleur*/
 }
 
 /* bouton d’agrandissement plein écran */
@@ -407,20 +406,20 @@ h1.contact {
   font-size: 25px;
   line-height: 1.6;
   margin: 0;
-  color: #F5F2E1;
+  color: #f5f2e1;
   width: 90%;
   text-align: left;
 }
 
 /* liens généraux */
 a {
-  color: #F0DC65;
+  color: #f0dc65;
   text-decoration: none;
 }
 
 /* liens au survol */
 a:hover {
-  color: #EFBF04;
+  color: #efbf04;
   text-decoration: underline;
 }
 
@@ -460,7 +459,7 @@ a:hover {
   flex-direction: column;
   font-size: 72px;
   color: black;
-  font-family: 'Imbue', serif;
+  font-family: "Imbue", serif;
   text-align: left;
   gap: 15px;
 }
@@ -483,7 +482,6 @@ a:hover {
 
 /* Mobile */
 @media screen and (max-width: 992px) {
-
   /* espacement du menu réduit */
   #Menu ul {
     gap: 10px;
@@ -578,7 +576,6 @@ a:hover {
     width: 30%;
     height: auto;
   }
-
 
   /* projets affichés en colonne */
   .projets {
