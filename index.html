@@ -69,9 +69,7 @@
         rappelle chaque jour l’importance de la douceur, de l’attention et du lien. Ils font partie intégrante de mon
         univers et nourrissent mon imaginaire ainsi que ma sensibilité artistique.
       </p>
-      <h3 class="logiciels">Logiciels maîtrisés <br> Suite Adobe - DaVinci Resolve - CapCut - Visual Studio Code (HTML,
-        CSS) - Maya
-        - Max - Trello - Toggl</h3>
+      <h3 class="logiciels">Logiciels maîtrisés <br> Suite Adobe - DaVinci Resolve - CapCut - Visual Studio Code (HTML, CSS) - Maya - Max - Trello - Toggl</h3>
     </div>
 
     <!-- Image forêt 1 -->
@@ -87,41 +85,41 @@
 
     <!-- Section projets (montage Vue) -->
     <div class="projets appli-vue" id="app">
-      <!-- Boucle sur les projets chargés de projects.json -->
+      <!-- Boucle sur les projets chargés de projects.json, v-for répète ce bloc pour chaque projet dans la liste "projects", :key identifiant unique pour chaque projet, :class ajoute deux classes (projet et son nom de projet) -->
       <div v-for="projet in projects" :key="projet.id" :class="['projet', 'projet' + projet.id]">
-        <h1>{{ projet.title }}</h1>
-        <h2>{{ projet.type }} / {{ projet.category }}</h2>
+        <h1>{{ projet.title }}</h1> <!-- Affiche le titre du projet -->
+        <h2>{{ projet.type }} / {{ projet.category }}</h2> <!-- Affiche le type et la catégorie -->
 
         <!-- Si plusieurs images donne carousel Swiper -->
-        <div v-if="projet.images && projet.images.length > 1" class="carousel-container">
+        <div v-if="projet.images && projet.images.length > 1" class="carousel-container"> <!-- v-if montre ce bloc seulement si le projet a plus d’une image -->
           <div class="swiper">
             <div class="swiper-wrapper">
-              <div class="swiper-slide" v-for="(img, idx) in projet.images" :key="idx">
-                <img :src="img" :alt="`Image ${idx + 1}`" @click="openFullscreen(img)">
-                <button class="fullscreen-btn" @click.prevent="openFullscreen(img)">
+              <div class="swiper-slide" v-for="(img, idx) in projet.images" :key="idx"> <!-- Boucle sur chaque image du projet, v-for répète ce bloc pour chaque image, :key = index unique (idx)  -->
+                <img :src="img" :alt="`Image ${idx + 1}`" @click="openFullscreen(img)"> <!-- :src chemin de l’image, :alt texte alternatif, @click quand on clique, ouvre l’image en plein écran -->
+                <button class="fullscreen-btn" @click.prevent="openFullscreen(img)">  <!-- Bouton pour ouvrir l’image en plein écran, @click.prevent empêche l’action par défaut du bouton -->
                   ⛶
                 </button>
               </div>
-            </div>
-            <div class="swiper-pagination"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+            </div> <!-- Contrôles du carrousel (points, flèches) -->
+            <div class="swiper-pagination"></div> <!-- Petits points sous le carrousel -->
+            <div class="swiper-button-prev"></div> <!-- Flèche gauche -->
+            <div class="swiper-button-next"></div> <!-- Flèche droite -->
           </div>
         </div>
 
         <!-- Si une seule image -->
-        <div v-else-if="projet.images && projet.images.length === 1" class="single-image-container">
+        <div v-else-if="projet.images && projet.images.length === 1" class="single-image-container"> <!-- v-else-if utilisé si la condition du dessus (plusieurs images) est fausse -->
+            <!-- Affiche l’unique image, clique ouvre l’image en plein écran -->
           <img :src="projet.images[0]" :alt="projet.title" class="projet-image"
             @click="openFullscreen(projet.images[0])">
-          <button class="fullscreen-btn" @click.prevent="openFullscreen(projet.images[0])">
+          <button class="fullscreen-btn" @click.prevent="openFullscreen(projet.images[0])"> <!-- Bouton pour plein écran -->
             ⛶
           </button>
         </div>
 
-        <p>ROLE: {{ projet.role }}</p>
-        <!-- Description -->
-        <p v-html="projet.description"></p>
-        <p>{{ projet.equipe }}</p>
+        <p>ROLE: {{ projet.role }}</p> <!-- Affiche le rôle dans le projet -->
+        <p v-html="projet.description"></p> <!-- Affiche la description (avec HTML possible) -->
+        <p>{{ projet.equipe }}</p> <!-- Affiche les membres de l’équipe -->
       </div>
     </div>
     </div>

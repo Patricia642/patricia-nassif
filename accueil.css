@@ -1,3 +1,4 @@
+/* style général du corps de la page */
 body {
   width: 100%;
   height: auto;
@@ -7,10 +8,12 @@ body {
   overflow-x: hidden;
 }
 
+/* défilement fluide pour les ancres */
 html {
   scroll-behavior: smooth;
 }
 
+/* retire marges et cache le débordement horizontal */
 html,
 body {
   margin: 0;
@@ -19,17 +22,19 @@ body {
   background-color: #F5F2E1;
 }
 
+/* zone principale du contenu */
 main {
   width: 100%;
 }
 
+/* haut de page pleine hauteur */
 header {
   height: 100vh;
   margin: 0;
   padding: 0;
 }
 
-/*Section Hero */
+/* section d'accueil avec image et logo centrés */
 .hero {
   position: relative;
   width: calc(100vw - 15px);
@@ -40,6 +45,7 @@ header {
   border-radius: 0 0 50px 50px;
 }
 
+/* taille et position du logo */
 .logo {
   width: 70vw;
   max-width: 400px;
@@ -48,7 +54,7 @@ header {
   z-index: 10;
 }
 
-/* Image de fond */
+/* image de fond du hero */
 .hero .fond {
   position: absolute;
   top: 0;
@@ -94,7 +100,7 @@ footer p {
   text-align: center;
 }
 
-/* Emplacement menu */
+/* menu fixe en haut de page */
 #Menu {
   position: fixed;
   top: 0;
@@ -107,7 +113,7 @@ footer p {
   transition: backdrop-filter 0.3s ease, background-color 0.3s ease;
 }
 
-/* Emplacement des choses dans mon menu */
+/* liste horizontale du menu */
 #Menu ul {
   list-style: none;
   margin: 0;
@@ -118,7 +124,7 @@ footer p {
   flex-wrap: wrap;
 }
 
-/* Le text de mon menu */
+/* liens du menu */
 #Menu a {
   text-decoration: none;
   font-family: 'Imbue', serif;
@@ -128,12 +134,12 @@ footer p {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
 }
 
-/* Mon menu au survol */
+/* couleur des liens au survol */
 #Menu a:hover {
   color: #EFBF04;
 }
 
-/* Mon logo par dessus mon image de fond */
+/* position du logo au centre du hero */
 .logo {
   position: absolute;
   top: 50%;
@@ -146,7 +152,7 @@ footer p {
   z-index: 10;
 }
 
-/* Le parent des mes images de chats */
+/* conteneur des images de chats */
 .chats {
   display: flex;
   justify-content: center;
@@ -155,7 +161,7 @@ footer p {
   gap: 125px;
 }
 
-/* Mes images de chats */
+/* taille des images de chats */
 .chats img {
   max-width: 100%;
   height: auto;
@@ -188,9 +194,9 @@ p {
   color: black;
 }
 
-/* logiciels centré */
+/* section des logiciels maîtrisés */
 .propos .logiciels {
-  max-width: 100%;
+  max-width: 1300px;
   margin: 50px auto;
   text-align: center;
   font-size: 48px;
@@ -205,32 +211,33 @@ p {
   padding-bottom: 150px;
 }
 
-/* Le parent de mon titre 1 et de la ligne centré */
+/* titres centrés des sections */
 .titre1,
 .titre2 {
   text-align: center;
 }
 
-/* mon titre mes projets */
+/* titre de la section projets */
 h1.projetsTitre {
   font-size: 128px;
   color: #7C8064;
   width: 100%;
 }
 
+/* titre de la section contact */
 h1.contact {
   font-size: 128px;
   color: #7C8064;
   width: 100%;
 }
 
-/* La ligne en dessous de mon titre mes projets */
+/* ligne décorative sous les titres */
 .ligne {
   display: block;
   margin: 0 auto;
 }
 
-/* Conteneur de tous les projets */
+/* conteneur de tous les projets */
 .projets {
   display: flex;
   flex-wrap: wrap;
@@ -239,7 +246,7 @@ h1.contact {
   margin: 0 auto 50px auto;
 }
 
-/* Gros rectangles verts pour Projets */
+/* cartes vertes des projets */
 .projet1,
 .projet2,
 .projet3,
@@ -260,14 +267,14 @@ h1.contact {
   margin-top: 55px;
 }
 
-/* Titres 1 des projets */
+/* titre principal dans un projet */
 .projets h1 {
   font-size: 96px;
   margin: 0;
   color: #F5F2E1;
 }
 
-/* Titres 2 des projets*/
+/* sous-titre dans un projet */
 .projets h2 {
   font-size: 52px;
   margin: 0;
@@ -276,7 +283,7 @@ h1.contact {
   font-family: 'Imbue', serif;
 }
 
-/* Conteneur du carrousel */
+/* bloc contenant le carrousel d’images */
 .carousel-container {
   width: 100%;
   padding: 0;
@@ -284,7 +291,7 @@ h1.contact {
   background-color: transparent;
 }
 
-/* Swiper global */
+/* carrousel Swiper */
 .swiper {
   width: 100%;
   height: 500px;
@@ -293,7 +300,7 @@ h1.contact {
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
 }
 
-/* Slides (images) */
+/* slide individuelle du carrousel */
 .swiper-slide {
   width: 100%;
   height: 100%;
@@ -302,22 +309,21 @@ h1.contact {
   align-items: center;
 }
 
-/* Images des slides */
+/* image dans une slide */
 .swiper-slide img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-/* (points) */
+/* position des points de pagination */
 .swiper-pagination {
   bottom: 15px
 }
 
-/* Couleur du cercle actif */
+/* couleur du point actif */
 .swiper-pagination-bullet-active {
-  background-color: #F5F2E1 !important;
-  /*important pour l'obliger à prendre la bonne couleur*/
+  background-color: #F5F2E1 !important; /*important pour l'obliger à prendre la bonne couleur*/
   opacity: 1;
 }
 
@@ -329,29 +335,26 @@ h1.contact {
   transition: color 0.3s ease;
 }
 
-/* Flèches de navigation */
+/* flèches de navigation */
 .swiper-button-next,
 .swiper-button-prev {
-  color: #F5F2E1 !important;
-  /*important pour l'obliger à prendre la bonne couleur*/
+  color: #F5F2E1 !important; /*important pour l'obliger à prendre la bonne couleur*/
   transition: color 0.3s ease;
 }
 
-/*Les UI et UX du swiper au survol*/
+/* points au survol */
 .swiper-pagination-bullet:hover {
-  background-color: #EFBF04 !important;
-  /*important pour l'obliger à prendre la bonne couleur*/
+  background-color: #EFBF04 !important; /*important pour l'obliger à prendre la bonne couleur*/
   opacity: 1;
 }
 
-/*Les UI et UX du swiper au survol*/
+/* flèches au survol */
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
-  color: #EFBF04 !important;
-  /*important pour l'obliger à prendre la bonne couleur*/
+  color: #EFBF04 !important; /*important pour l'obliger à prendre la bonne couleur*/
 }
 
-/*spécifications pour mon btn d'agrandissement*/
+/* bouton d’agrandissement plein écran */
 .fullscreen-btn {
   position: absolute;
   bottom: 10px;
@@ -366,6 +369,7 @@ h1.contact {
   z-index: 20;
 }
 
+/* position relative pour placer bouton plein écran */
 .swiper-slide,
 .single-image-container {
   position: relative;
@@ -398,7 +402,7 @@ h1.contact {
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
 }
 
-/* Description de mes projets */
+/* texte dans les projets */
 .projets p {
   font-size: 25px;
   line-height: 1.6;
@@ -408,11 +412,13 @@ h1.contact {
   text-align: left;
 }
 
+/* liens généraux */
 a {
   color: #F0DC65;
   text-decoration: none;
 }
 
+/* liens au survol */
 a:hover {
   color: #EFBF04;
   text-decoration: underline;
@@ -427,7 +433,7 @@ a:hover {
   padding-bottom: 150px;
 }
 
-/* section contact dimension et emplacement parent de mon contact wrapper*/
+/* section de contact principale */
 .contacter {
   display: flex;
   justify-content: center;
@@ -435,20 +441,20 @@ a:hover {
   max-width: 1290px;
 }
 
-/* parent de ma photo et mes infos  */
+/* conteneur de la photo et des infos de contact */
 .contact-wrapper {
   display: flex;
   gap: 40px;
   width: 90%;
 }
 
-/* ma photo grandeur */
+/* taille de la photo de contact */
 .contact-photo img {
   width: 550px;
   height: auto;
 }
 
-/* mes infos allure */
+/* style des paragraphes de contact */
 .contact-infos p {
   display: flex;
   flex-direction: column;
@@ -459,18 +465,18 @@ a:hover {
   gap: 15px;
 }
 
-/* mes infos au survol */
+/* soulignement au survol des infos */
 .contact-infos p:hover {
   text-decoration: underline;
 }
 
-/* mes infos a allure */
+/* style des liens de contact */
 .contact-infos a {
   color: black;
   text-decoration: none;
 }
 
-/* mes infos a au survol */
+/* survol des liens de contact */
 .contact-infos a:hover {
   text-decoration: underline;
 }
@@ -478,24 +484,24 @@ a:hover {
 /* Mobile */
 @media screen and (max-width: 992px) {
 
-  /* gap de menu plus petite */
+  /* espacement du menu réduit */
   #Menu ul {
     gap: 10px;
     align-items: center;
   }
 
-  /* Typo plus petite */
+  /* taille des liens réduite */
   #Menu a {
     font-size: 25px;
   }
 
-  /* hero plus petit */
+  /* section hero plus petite */
   .hero {
     height: 80vh;
     min-height: 400px;
   }
 
-  /* hero image plus petit */
+  /* image de fond redimensionnée */
   .hero .fond {
     width: 100%;
     height: 100%;
@@ -536,6 +542,7 @@ a:hover {
   /* logiciels plus petite typo */
   .propos .logiciels {
     text-align: center;
+    width: 90%;
     font-size: 24px;
   }
 
@@ -544,6 +551,9 @@ a:hover {
     width: 90%;
     max-width: 900px;
     height: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
   }
 
   /* img plus petite */
@@ -551,6 +561,9 @@ a:hover {
     width: 90%;
     max-width: 900px;
     height: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
   }
 
   /* section chats emplacement*/
@@ -560,14 +573,14 @@ a:hover {
     justify-content: center;
   }
 
-  /* img chats taille*/
+  /* taille des images de chats réduite */
   .chats img {
     width: 30%;
     height: auto;
   }
 
 
-  /* Projets en verticales */
+  /* projets affichés en colonne */
   .projets {
     flex-direction: column;
     gap: 50px;
@@ -575,7 +588,7 @@ a:hover {
     align-items: center;
   }
 
-  /* Projets dimensions */
+  /* taille des projets réduite */
   .projet1,
   .projet2,
   .projet3,
@@ -602,20 +615,22 @@ a:hover {
     font-size: 48px;
   }
 
+  /* Typo plus petite */
   .projets h2 {
     font-size: 28px;
   }
 
+  /* Typo plus petite */
   .projets p {
     font-size: 20px;
   }
 
-  /* Carrousel plus petit de la hauteur */
+  /* images du carrousel plus petites */
   .carousel-container img {
     height: 150px;
   }
 
-  /* Change pour column pour avoir mes infos en dessous de ma photo centrés */
+  /* disposition verticale sur mobile */
   .contact-wrapper {
     flex-direction: column;
     align-items: center;
@@ -623,7 +638,7 @@ a:hover {
     gap: 5px;
   }
 
-  /* centré */
+  /* infos de contact centrées */
   .contact-infos {
     width: 100%;
     display: flex;
@@ -632,7 +647,7 @@ a:hover {
     text-align: center;
   }
 
-  /* centré */
+  /* texte du contact plus petit */
   .contact-infos p {
     font-size: 45px;
     margin-bottom: 15px;
@@ -640,7 +655,7 @@ a:hover {
     width: 100%;
   }
 
-  /* centré */
+  /* lien centré */
   .contact-infos p a {
     display: inline-block;
     text-align: center;
@@ -654,25 +669,25 @@ a:hover {
     height: auto;
   }
 
-  /* typo plus petite pour mes titres 1 et 2 */
+  /* titres plus petits sur mobile */
   h1.contact,
   h1.projetsTitre {
     font-size: 88px;
   }
 
-  /* arranger la largeur de mes lignes */
+  /* ligne plus courte */
   .ligne {
     width: 90%;
     max-width: 900px;
     height: auto;
   }
 
-  /* swiper plus petit */
+  /* carrousel plus petit */
   .swiper {
     height: 300px;
   }
 
-  /* img swiper plus petites */
+  /* img carrousel plus petites */
   .swiper-slide img {
     width: 100%;
     height: 300px;
