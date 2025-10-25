@@ -37,7 +37,7 @@ header {
 /* section d'accueil avec image et logo centrés */
 .hero {
   position: relative;
-  width: calc(100vw - 15px);
+  width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
