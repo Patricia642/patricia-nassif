@@ -234,6 +234,7 @@ h1.contact {
 .ligne {
   display: block;
   margin: 0 auto;
+  width: 90vw;
 }
 
 /* conteneur de tous les projets */
@@ -521,8 +522,8 @@ a:hover {
 
 img.ligne {
   display: block;
-  width: 90%;
-  max-width: 900px;
+  width: 90vw;
+  max-width: 1300px;
   height: auto;
   margin: 0 auto;
   box-sizing: border-box;
@@ -740,7 +741,7 @@ img.ligne {
 
   /* ligne plus courte */
   .ligne {
-    width: 90%;
+    width: 90vw;
     max-width: 900px;
     height: auto;
   }
