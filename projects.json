@@ -80,13 +80,22 @@
   },
   {
     "id": 5,
-    "title": "VIXEN",
-    "type": "ACADÉMIQUE",
-    "role": "MODÉLISATION ET ANIMATION 3D",
-    "equipe": "INDIVIDUELLE",
-    "category": "ANIMATION 3D",
-    "description": "DESCRIPTION: Réaliser un pastiche de l’introduction Pixar en choisissant un mot, puis modéliser et créer le rig de la lampe avant d’animer le tout. J’ai choisi le mot « Vixen », une renarde espiègle, pour créer un univers stylisé et dynamique. J’ai réalisé un pastiche de l’introduction Pixar en modélisant, animant et donnant vie à la lampe, avant de finaliser le projet dans DaVinci Resolve avec l’ajout de l’éclairage et de la bande sonore.</p><p><a href=\"https://youtu.be/CaYdQOFyk5w\" target=\"_blank\" rel=\"noopener noreferrer\">Voir le projet ici</a>",
-    "images": ["./nassif-patricia-portfolio/Assets/vixen.png"]
+    "title": "OSMOSE",
+    "type": "INDIVIDUELLE",
+    "role": "PRODUCTRICE",
+    "equipe": "ÉQUIPE: MEGGIE CLOUTIER HAMEL, SARAH SEPTEMBRE, NAOMI CHOUINARD, GITANE CÉRÉ TREMBLAY",
+    "category": "MONTAGE VIDÉO",
+    "description": "OSMOSE est un montage vidéo réalisé entièrement à l’aide de l’intelligence artificielle. J’ai participé activement à la production du projet, de la conception visuelle à l’orchestration des outils IA, en veillant à la cohérence esthétique, narrative et émotionnelle de l’œuvre. Ce projet explore la porosité entre le corps, l’image et la perception, à travers une approche sensible et immersive. Il a été réalisé dans un contexte artistique et bénéficie d’une subvention du Plan culturel numérique (PLAN).",
+    "images": ["./nassif-patricia-portfolio/Assets/osmose1.png",
+  "./nassif-patricia-portfolio/Assets/osmose2.png",
+  "./nassif-patricia-portfolio/Assets/osmose3.png",
+  "./nassif-patricia-portfolio/Assets/osmose10.png",
+  "./nassif-patricia-portfolio/Assets/osmose4.png",
+  "./nassif-patricia-portfolio/Assets/osmose5.png",
+  "./nassif-patricia-portfolio/Assets/osmose6.png",
+  "./nassif-patricia-portfolio/Assets/osmose7.png",
+  "./nassif-patricia-portfolio/Assets/osmose8.png",
+  "./nassif-patricia-portfolio/Assets/osmose9.png"]
   },
   {
     "id": 6,
@@ -97,12 +106,17 @@
     "category": "GRAPHISME",
     "description": "Je me suis inspirée d’illustrations et d’images sélectionnées sur Pinterest afin d’analyser les styles et techniques visuels qui m’attiraient. Ensuite, j’ai entrepris de recréer ces influences à travers mes propres illustrations, en adaptant les éléments à mon style personnel. Cette démarche m’a permis à la fois de m’amuser dans le processus créatif et de développer mes compétences en illustration de manière pratique et réfléchie.<br><br>",
     "images": [
+      "./nassif-patricia-portfolio/Assets/illustrations/dessin1.png",
+      "./nassif-patricia-portfolio/Assets/illustrations/dessin2.png",
+      "./nassif-patricia-portfolio/Assets/illustrations/dessin3.png",
+      "./nassif-patricia-portfolio/Assets/illustrations/dessin4.png",
+      "./nassif-patricia-portfolio/Assets/illustrations/dessin5.png",
+      "./nassif-patricia-portfolio/Assets/illustrations/dessin6.png",
+      "./nassif-patricia-portfolio/Assets/illustrations/dessin7.png",
+      "./nassif-patricia-portfolio/Assets/illustrations/dessin8.png",
       "./nassif-patricia-portfolio/Assets/illustrations/soleil.png",
-      "./nassif-patricia-portfolio/Assets/illustrations/nuage.png",
       "./nassif-patricia-portfolio/Assets/illustrations/smart.png",
-      "./nassif-patricia-portfolio/Assets/illustrations/mondeMagique.png",
-      "./nassif-patricia-portfolio/Assets/illustrations/citron.png",
-      "./nassif-patricia-portfolio/Assets/illustrations/lemon.png"
+      "./nassif-patricia-portfolio/Assets/illustrations/mondeMagique.png"
     ]
   }
 ]

@@ -172,7 +172,7 @@ h1 {
   width: 800px;
   margin: 0 auto;
   font-size: 128px;
-  color: #7c8064;
+  color: #F998C8;
 }
 
 /* Mon bienvenue */
@@ -219,14 +219,14 @@ p {
 /* titre de la section projets */
 h1.projetsTitre {
   font-size: 128px;
-  color: #7c8064;
+  color: #F998C8;
   width: 100%;
 }
 
 /* titre de la section contact */
 h1.contact {
   font-size: 128px;
-  color: #7c8064;
+  color: #F998C8;
   width: 100%;
 }
 
@@ -254,7 +254,7 @@ h1.contact {
 .projet5,
 .projet6 {
   width: 48%;
-  background-color: #757a4a;
+  background-color: #919855;
   border-radius: 50px;
   padding: 40px;
   height: 1450px;
