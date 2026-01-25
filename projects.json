@@ -76,7 +76,9 @@
     "equipe": "INDIVIDUELLE",
     "category": "WEB",
     "description": "DESCRIPTION : Ce projet consistait à rédiger une critique web d’une page en utilisant Bootstrap, sur un sujet de notre choix. J’ai choisi House of the Dragon, une de mes séries préférées, pour son univers riche, sa narration complexe et sa direction artistique soignée. J’ai d’abord conçu un plan visuel sur papier afin d’organiser le contenu et l’esthétique de la page. Ensuite, j’ai utilisé Bootstrap pour structurer la mise en page de façon responsive, avant de coder et finaliser l’ensemble. Une attention particulière a été portée à l’ergonomie, à la lisibilité et à l’équilibre visuel du projet.",
-    "images": ["./nassif-patricia-portfolio/Assets/web/house-of-the-dragon.png"]
+    "images": [
+      "./nassif-patricia-portfolio/Assets/web/house-of-the-dragon.png"
+    ]
   },
   {
     "id": 5,
@@ -86,16 +88,18 @@
     "equipe": "ÉQUIPE: MEGGIE CLOUTIER HAMEL, SARAH SEPTEMBRE, NAOMI CHOUINARD, GITANE CÉRÉ TREMBLAY",
     "category": "MONTAGE VIDÉO",
     "description": "OSMOSE est un montage vidéo réalisé entièrement à l’aide de l’intelligence artificielle. J’ai participé activement à la production du projet, de la conception visuelle à l’orchestration des outils IA, en veillant à la cohérence esthétique, narrative et émotionnelle de l’œuvre. Ce projet explore la porosité entre le corps, l’image et la perception, à travers une approche sensible et immersive. Il a été réalisé dans un contexte artistique et bénéficie d’une subvention du Plan culturel numérique (PLAN).",
-    "images": ["./nassif-patricia-portfolio/Assets/osmose1.png",
-  "./nassif-patricia-portfolio/Assets/osmose2.png",
-  "./nassif-patricia-portfolio/Assets/osmose3.png",
-  "./nassif-patricia-portfolio/Assets/osmose10.png",
-  "./nassif-patricia-portfolio/Assets/osmose4.png",
-  "./nassif-patricia-portfolio/Assets/osmose5.png",
-  "./nassif-patricia-portfolio/Assets/osmose6.png",
-  "./nassif-patricia-portfolio/Assets/osmose7.png",
-  "./nassif-patricia-portfolio/Assets/osmose8.png",
-  "./nassif-patricia-portfolio/Assets/osmose9.png"]
+    "images": [
+      "./nassif-patricia-portfolio/Assets/osmose1.png",
+      "./nassif-patricia-portfolio/Assets/osmose2.png",
+      "./nassif-patricia-portfolio/Assets/osmose3.png",
+      "./nassif-patricia-portfolio/Assets/osmose10.png",
+      "./nassif-patricia-portfolio/Assets/osmose4.png",
+      "./nassif-patricia-portfolio/Assets/osmose5.png",
+      "./nassif-patricia-portfolio/Assets/osmose6.png",
+      "./nassif-patricia-portfolio/Assets/osmose7.png",
+      "./nassif-patricia-portfolio/Assets/osmose8.png",
+      "./nassif-patricia-portfolio/Assets/osmose9.png"
+    ]
   },
   {
     "id": 6,
