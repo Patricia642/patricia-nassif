@@ -507,6 +507,7 @@ a:hover {
 /* soulignement au survol des infos */
 .contact-infos p a:hover {
   text-decoration: underline;
+  color: #F998C8;
 }
 
 /* style des liens de contact */
