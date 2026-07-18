@@ -1,121 +1,53 @@
 [
   {
     "id": 1,
-    "title": "GRADUATION",
-    "type": "PERSONNELLE",
-    "role": "PHOTOGRAPHE",
-    "equipe": "INDIVIDUELLE",
-    "category": "PHOTOGRAPHIE",
-    "description": "J’ai soigneusement préparé le matériel et organisé la séance photo, tout en laissant une grande liberté aux clients pour capturer des moments authentiques et spontanés. L’esthétique recherchée était romantique et intemporelle, afin de transmettre une émotion douce et sincère. Après la séance, j’ai sélectionné et retouché les meilleures photos, que j’ai ensuite livrées dans un dossier structuré, accompagné d’un message personnalisé de remerciement.",
+    "title": "ÉVÉNEMENT",
     "images": [
+      "./nassif-patricia-portfolio/Assets/graduation/img4.JPG",
       "./nassif-patricia-portfolio/Assets/graduation/img1.JPG",
       "./nassif-patricia-portfolio/Assets/graduation/img2.JPG",
-      "./nassif-patricia-portfolio/Assets/graduation/img3.JPG",
-      "./nassif-patricia-portfolio/Assets/graduation/img4.JPG",
-      "./nassif-patricia-portfolio/Assets/graduation/img5.jpg",
-      "./nassif-patricia-portfolio/Assets/graduation/img6.jpg",
       "./nassif-patricia-portfolio/Assets/graduation/img7.jpg",
-      "./nassif-patricia-portfolio/Assets/graduation/img8.jpg",
       "./nassif-patricia-portfolio/Assets/graduation/img9.jpg",
+      "./nassif-patricia-portfolio/Assets/graduation/img12.JPG",
+      "./nassif-patricia-portfolio/Assets/graduation/img8.jpg",
+      "./nassif-patricia-portfolio/Assets/graduation/img5.jpg",
+      "./nassif-patricia-portfolio/Assets/graduation/img14.JPG",
       "./nassif-patricia-portfolio/Assets/graduation/img10.jpg",
       "./nassif-patricia-portfolio/Assets/graduation/img11.jpg",
-      "./nassif-patricia-portfolio/Assets/graduation/img12.JPG",
       "./nassif-patricia-portfolio/Assets/graduation/img13.JPG",
-      "./nassif-patricia-portfolio/Assets/graduation/img14.JPG",
-      "./nassif-patricia-portfolio/Assets/graduation/img15.jpg",
       "./nassif-patricia-portfolio/Assets/graduation/img16.jpg",
       "./nassif-patricia-portfolio/Assets/graduation/img17.jpg",
-      "./nassif-patricia-portfolio/Assets/graduation/img18.jpg",
       "./nassif-patricia-portfolio/Assets/graduation/img19.jpg",
       "./nassif-patricia-portfolio/Assets/graduation/img20.jpg"
     ]
   },
   {
     "id": 2,
-    "title": "NATURE MORTE",
-    "type": "ACADÉMIQUE",
-    "role": "PHOTOGRAPHE",
-    "equipe": "INDIVIDUELLE",
-    "category": "PHOTOGRAPHIE",
-    "description": "DESCRIPTION: Pour ce projet, Le professeur demandait des photographies de nature morte en expérimentant différents angles. L’objectif était de rendre l’image visuellement attrayante. J’ai réalisé plusieurs photographies de nature morte en explorant différents angles pour créer des images visuellement harmonieuses. J’ai pris soin de la composition et ajusté les teintes dans Lightroom afin de renforcer l’ambiance et la cohérence visuelle.",
+    "title": "GRADUATION",
     "images": [
-      "./nassif-patricia-portfolio/Assets/nature-morte/img1.JPG",
-      "./nassif-patricia-portfolio/Assets/nature-morte/img2.JPG",
-      "./nassif-patricia-portfolio/Assets/nature-morte/img3.JPG",
-      "./nassif-patricia-portfolio/Assets/nature-morte/img4.JPG",
-      "./nassif-patricia-portfolio/Assets/nature-morte/img5.JPG"
+      "./nassif-patricia-portfolio/Assets/nature-morte/graduation-jey.png",
+      "./nassif-patricia-portfolio/Assets/nature-morte/graduation-patty1.png"
     ]
   },
   {
     "id": 3,
-    "title": "MACRO",
-    "type": "ACADÉMIQUE",
-    "role": "RÉALISATRICE",
-    "equipe": "ÉQUIPE: THOMAS ROUSSEL, FÉLIX LÉVESQUE, ALEXANDRE PLANTE-SALMERON",
-    "category": "VIDÉO",
-    "description": "DESCRIPTION: Le professeur demandait de réaliser une vidéo d’au moins 1 minute 30, filmée presque exclusivement en macro. Il fallait aussi choisir un thème personnel et monter le projet en équipe. J’ai choisi le thème des bonnes habitudes de vie à travers la symbolique des mains et imaginé un scénario sobre, légèrement romantique et adapté aux acteurs masculins. J’ai réalisé le scénarimage, supervisé le tournage en respectant la narration, puis contribué au montage final.</p><p><a href=\"https://youtu.be/faHFoSHsRig\" target=\"_blank\" rel=\"noopener noreferrer\">Voir le projet ici</a>",
+    "title": "SPORT",
     "images": [
-      "./nassif-patricia-portfolio/Assets/video/macro.png",
-      "./nassif-patricia-portfolio/Assets/video/macroMoodboard.png",
-      "./nassif-patricia-portfolio/Assets/video/macro1.png",
-      "./nassif-patricia-portfolio/Assets/video/macro2.png",
-      "./nassif-patricia-portfolio/Assets/video/macro3.png",
-      "./nassif-patricia-portfolio/Assets/video/macro4.png",
-      "./nassif-patricia-portfolio/Assets/video/macro5.png",
-      "./nassif-patricia-portfolio/Assets/video/macro6.png",
-      "./nassif-patricia-portfolio/Assets/video/macro7.png",
-      "./nassif-patricia-portfolio/Assets/video/macro8.png",
-      "./nassif-patricia-portfolio/Assets/video/macro9.png"
+      "./nassif-patricia-portfolio/Assets/video/sport1.jpg"
     ]
   },
   {
     "id": 4,
-    "title": "CRITIQUE",
-    "type": "ACADÉMIQUE",
-    "role": "DESIGNER ET DÉVELOPPEUSE",
-    "equipe": "INDIVIDUELLE",
-    "category": "WEB",
-    "description": "DESCRIPTION : Ce projet consistait à rédiger une critique web d’une page en utilisant Bootstrap, sur un sujet de notre choix. J’ai choisi House of the Dragon, une de mes séries préférées, pour son univers riche, sa narration complexe et sa direction artistique soignée. J’ai d’abord conçu un plan visuel sur papier afin d’organiser le contenu et l’esthétique de la page. Ensuite, j’ai utilisé Bootstrap pour structurer la mise en page de façon responsive, avant de coder et finaliser l’ensemble. Une attention particulière a été portée à l’ergonomie, à la lisibilité et à l’équilibre visuel du projet.",
+    "title": "ANIMAUX",
+
     "images": [
-      "./nassif-patricia-portfolio/Assets/web/house-of-the-dragon.png"
-    ]
-  },
-  {
-    "id": 5,
-    "title": "OSMOSE",
-    "type": "INDIVIDUELLE",
-    "role": "PRODUCTRICE",
-    "equipe": "ÉQUIPE: MEGGIE CLOUTIER HAMEL, SARAH SEPTEMBRE, NAOMI CHOUINARD, GITANE CÉRÉ TREMBLAY",
-    "category": "MONTAGE VIDÉO",
-    "description": "OSMOSE est un montage vidéo réalisé entièrement à l’aide de l’intelligence artificielle. J’ai participé activement à la production du projet, de la conception visuelle à l’orchestration des outils IA, en veillant à la cohérence esthétique, narrative et émotionnelle de l’œuvre. Ce projet explore la porosité entre le corps, l’image et la perception, à travers une approche sensible et immersive. Il a été réalisé dans un contexte artistique et bénéficie d’une subvention du Plan culturel numérique (PLAN). <br> Visionner le projet : <a href='https://vimeo.com/1158229757?share=copy' target='_blank'>OSMOSE</a>.",
-    "images": [
-      "./nassif-patricia-portfolio/Assets/osmose1.png",
-      "./nassif-patricia-portfolio/Assets/osmose2.png",
-      "./nassif-patricia-portfolio/Assets/osmose3.png",
-      "./nassif-patricia-portfolio/Assets/osmose10.png",
-      "./nassif-patricia-portfolio/Assets/osmose4.png",
-      "./nassif-patricia-portfolio/Assets/osmose5.png",
-      "./nassif-patricia-portfolio/Assets/osmose6.png",
-      "./nassif-patricia-portfolio/Assets/osmose7.png",
-      "./nassif-patricia-portfolio/Assets/osmose8.png",
-      "./nassif-patricia-portfolio/Assets/osmose9.png"
-    ]
-  },
-  {
-    "id": 6,
-    "title": "GRAPHISME",
-    "type": "PERSONNELLE",
-    "role": "GRAPHISME",
-    "equipe": "INDIVIDUELLE",
-    "category": "GRAPHISME",
-    "description": "Je me suis inspirée d’illustrations et d’images sélectionnées sur Pinterest afin d’analyser les styles et techniques visuels qui m’attiraient. Ensuite, j’ai entrepris de recréer ces influences à travers mes propres illustrations, en adaptant les éléments à mon style personnel. Cette démarche m’a permis à la fois de m’amuser dans le processus créatif et de développer mes compétences en illustration de manière pratique et réfléchie.<br><br><br>",
-    "images": [
-      "./nassif-patricia-portfolio/Assets/illustrations/dessin1.png",
-      "./nassif-patricia-portfolio/Assets/illustrations/dessin2.jpg",
-      "./nassif-patricia-portfolio/Assets/illustrations/dessin8.png",
-      "./nassif-patricia-portfolio/Assets/illustrations/soleil.png",
-      "./nassif-patricia-portfolio/Assets/illustrations/smart.png",
-      "./nassif-patricia-portfolio/Assets/illustrations/mondeMagique.png"
+      "./nassif-patricia-portfolio/Assets/web/animaux2.png",
+      "./nassif-patricia-portfolio/Assets/web/animaux3.png",
+      "./nassif-patricia-portfolio/Assets/web/animaux4.png",
+      "./nassif-patricia-portfolio/Assets/web/animaux6.png",
+      "./nassif-patricia-portfolio/Assets/web/animaux7.png",
+      "./nassif-patricia-portfolio/Assets/web/animaux8.png"
+
     ]
   }
 ]

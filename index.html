@@ -23,7 +23,7 @@
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-  <title>Portfolio Patricia Nassif</title>
+  <title>Patricia Nassif Photographie</title>
 </head>
 
 <body>
@@ -54,21 +54,25 @@
     </div>
 
     <!-- Mon introduction -->
-    <h2>Bienvenue!</h2>
-    <h1>JE SUIS PATRICIA!</h1>
+    <h2>Bienvenue chez</h2>
+    <h1>Patricia Nassif Photographie!</h1>
 
     <div class="propos">
-      <p>Passionnée par le design graphique d’affiche, la publicité et le design web, j’aime créer des univers visuels
-        forts et cohérents. Je m’intéresse autant à l’esthétique qu’à l’efficacité, notamment à travers le montage
-        vidéo, le SEO et la qualité de l’expérience utilisateur.
+      <p>
+        Je crois que chaque moment mérite d'être capturé avec authenticité, sensibilité et élégance. Ma mission est de
+        créer des images intemporelles qui racontent votre histoire et préservent vos plus précieux souvenirs.
         <br><br>
-        J’apprécie particulièrement les projets où créativité, narration visuelle et performance numérique se
-        rencontrent pour offrir des expériences immersives et percutantes. En parallèle, mes chats occupent une place
-        importante dans mon quotidien et nourrissent ma sensibilité artistique.
+        Je vous accompagne à travers les étapes importantes de votre vie en vous offrant une expérience professionnelle,
+        chaleureuse et personnalisée. Chaque séance est pensée avec soin afin de mettre en valeur les émotions, les
+        liens et les instants qui comptent le plus.
       </p>
-      <h3 class="logiciels">Logiciels maîtrisés <br> Suite Adobe - Figma - DaVinci Resolve - CapCut - Visual Studio Code
-        (HTML, CSS) - Maya - Max - Trello - Toggl</h3>
+
+      <h3 class="logiciels">
+        Mes services <br>
+        Graduation • Sport • Événements • Maternité • Couple • Fiançailles • Nouveau-né • Bébé
+      </h3>
     </div>
+
 
     <!-- Image forêt 1 -->
     <div class="foret1" id="projets">
@@ -86,7 +90,6 @@
       <!-- Boucle sur les projets chargés de projects.json, v-for répète ce bloc pour chaque projet dans la liste "projects", :key identifiant unique pour chaque projet, :class ajoute deux classes (projet et son nom de projet) -->
       <div v-for="projet in projects" :key="projet.id" :class="['projet', 'projet' + projet.id]">
         <h1>{{ projet.title }}</h1> <!-- Affiche le titre du projet -->
-        <h2>{{ projet.type }} / {{ projet.category }}</h2> <!-- Affiche le type et la catégorie -->
 
         <!-- Si plusieurs images donne carousel Swiper -->
         <div v-if="projet.images && projet.images.length > 1" class="carousel-container">
@@ -120,13 +123,9 @@
             ⛶
           </button>
         </div>
-
-        <p>RÔLE: {{ projet.role }}</p> <!-- Affiche le rôle dans le projet -->
-        <p v-html="projet.description"></p> <!-- Affiche la description (avec HTML possible) -->
-        <p>{{ projet.equipe }}</p> <!-- Affiche les membres de l’équipe -->
       </div>
     </div>
-    </div>
+
 
     <!-- Image forêt 2 -->
     <div class="foret2">
@@ -156,7 +155,7 @@
 
   <!-- Mon bas de page -->
   <footer>
-    <p>© 2025 Patricia Nassif - Tous droits réservés.</p>
+    <p>© 2026 Patricia Nassif Photographie - Tous droits réservés.</p>
   </footer>
 </body>
 <script src="main.js"></script>
